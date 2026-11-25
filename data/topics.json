@@ -1,0 +1,2809 @@
+{
+  "english|冠词": {
+    "subject": "english",
+    "topic": "冠词",
+    "def": "冠词分不定冠词 a/an 与定冠词 the，用在名词前限定其范围。",
+    "points": [
+      "a 用在辅音音素前，an 用在元音音素前（看发音不看字母）",
+      "the 表示特指、唯一、上文提到过的事物",
+      "乐器前加 the，球类/三人称球类运动前不加",
+      "专有名词、抽象名词泛指时不加冠词。"
+    ],
+    "trap": "注意 an hour（h 不发音，元音音素开头）、a university（发 /juː/ 辅音音素）；\"the + 形容词\"表示一类人（the rich）。",
+    "kind": "grammar",
+    "example": {
+      "stem": "Henry likes to play ___ piano, while his brother prefers playing ___ football.",
+      "answer": "the; /",
+      "explain": "乐器前加定冠词 the，球类运动前不加冠词，应填 the /（球类前不填）。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 2,
+    "prioReason": "真题1道"
+  },
+  "english|不定代词": {
+    "subject": "english",
+    "topic": "不定代词",
+    "def": "不定代词指不特定的人或物，如 some/any/every/no 复合词及 both/either/neither/all/none。",
+    "points": [
+      "some 多用于肯定句，any 多用于否定句和疑问句",
+      "both 两者都、either 两者之一、neither 两者都不",
+      "all 三者及以上都、none 三者及以上都不",
+      "不定代词作主语谓语多用单数。"
+    ],
+    "trap": "\"neither...nor\"遵循就近原则；复合不定代词（something/anyone）被形容词修饰时形容词后置：something important。",
+    "kind": "grammar",
+    "example": {
+      "stem": "We invited Linda and Cathy to dinner, but ___ of them came.",
+      "answer": "neither",
+      "explain": "both 两者都；none 三者及以上都不；neither 两者都不。由 but 可知两人都没有来，应填 neither。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|主谓一致 / 现在完成时": {
+    "subject": "english",
+    "topic": "主谓一致 / 现在完成时",
+    "def": "主谓一致指主语与谓语在人称数上一致；现在完成时表示过去动作对现在的影响。",
+    "points": [
+      "现在完成时结构 have/has + 过去分词",
+      "常与 already/yet/since/for/just/ever/never 连用",
+      "\"each/every/either+名词\"作主语谓语用单数",
+      "\"A as well as B\"谓语与 A 一致。"
+    ],
+    "trap": "since 后接时间点，for 后接时间段；have been to（去过已回）与 have gone to（去了未回）区别。",
+    "kind": "grammar",
+    "example": {
+      "stem": "The number of new energy vehicles in our country ___ a lot in recent years.",
+      "answer": "has increased",
+      "explain": "in recent years 是现在完成时标志；The number of... 作主语谓语用单数，应填 has increased。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "english|情态动词表推测": {
+    "subject": "english",
+    "topic": "情态动词表推测",
+    "def": "情态动词可对现在或过去的情况进行推测。",
+    "points": [
+      "must 表肯定推测（一定），may/might 表可能推测，can't/couldn't 表否定推测（不可能）",
+      "对现在推测用\"情态动词+动词原形\"，对过去推测用\"情态动词+have done\"。"
+    ],
+    "trap": "否定推测用 can't 不用 mustn't（mustn't 是\"禁止\"）；\"may have done\"表对过去的可能性推测。",
+    "kind": "grammar",
+    "example": {
+      "stem": "—Juicy graduated from college at a very young age. —She ___ have been a smart student.",
+      "answer": "must",
+      "explain": "must have done 表示对过去事情的肯定推测，应填 must。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|宾语从句 / 被动语态 / 时态": {
+    "subject": "english",
+    "topic": "宾语从句 / 被动语态 / 时态",
+    "def": "宾语从句是在复合句中作宾语的从句；被动语态表示主语是动作的承受者。",
+    "points": [
+      "宾语从句用陈述语序（主+谓），注意时态呼应：主句过去时从句用相应过去时",
+      "被动语态结构 be + 过去分词，各时态通过 be 变化体现。"
+    ],
+    "trap": "宾语从句中客观真理永远用一般现在时；含情态动词的被动：can/must + be + done。",
+    "kind": "grammar",
+    "example": {
+      "stem": "She wondered what effective measures ___ to increase the productivity.",
+      "answer": "would be taken",
+      "explain": "measures 与 take 是被动关系，主句为过去时，从句用过去将来时被动，应填 would be taken。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "english|虚拟语气 / wish 从句": {
+    "subject": "english",
+    "topic": "虚拟语气 / wish 从句",
+    "def": "虚拟语气表示与事实相反的假设或愿望。",
+    "points": [
+      "wish 后从句：与现在相反用过去式（be 用 were），与过去相反用 had done，与将来相反用 would/could + 动词原形",
+      "if 引导的条件虚拟语气同样分三种时间。"
+    ],
+    "trap": "\"I wish I were you\"中 be 动词一律用 were；suggest/advise/insist 等从句用 (should) + 动词原形。",
+    "kind": "grammar",
+    "example": {
+      "stem": "—Have you ever been to Beijing? —No, I wish I ___.",
+      "answer": "had",
+      "explain": "wish 后宾语从句用虚拟语气，与过去事实相反用过去完成时，应填 had。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "english|主语从句": {
+    "subject": "english",
+    "topic": "主语从句",
+    "def": "主语从句是在复合句中作主语的从句。",
+    "points": [
+      "常用 it 作形式主语，真正主语从句后置：It is clear that...",
+      "that 引导的从句 that 不可省",
+      "whether 引导表\"是否\"的主语从句。"
+    ],
+    "trap": "主语从句谓语一般用单数；\"What 引导的从句\"看作整体，谓语多用单数。",
+    "kind": "grammar",
+    "example": {
+      "stem": "___ you are coming to the conference is the best news I have heard these days.",
+      "answer": "That",
+      "explain": "That 引导主语从句，在从句中不充当成分、无实义，应填 That。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "english|使役动词 have": {
+    "subject": "english",
+    "topic": "使役动词 have",
+    "def": "have 作使役动词表示\"使/让/叫\"别人做某事。",
+    "points": [
+      "have + 宾语 + do（让…做，主动）",
+      "have + 宾语 + done（让…被做，被动）",
+      "have + 宾语 + doing（让…持续做）。"
+    ],
+    "trap": "\"have sb do\"与\"have sth done\"区别：I had my bike repaired（让别人修），不是自己修。",
+    "kind": "grammar",
+    "example": {
+      "stem": "The children were surprised when the teacher had them ___ their books unexpectedly.",
+      "answer": "close",
+      "explain": "have sb. do sth. 表示让某人做某事，用不带 to 的不定式，应填 close。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|固定句型 / 动名词": {
+    "subject": "english",
+    "topic": "固定句型 / 动名词",
+    "def": "英语中有一批固定搭配要求接动名词 doing。",
+    "points": [
+      "enjoy/finish/avoid/mind/suggest/practice/consider 后接 doing",
+      "介词后接 doing",
+      "\"It is no use/good doing\"",
+      "\"have difficulty (in) doing\"。"
+    ],
+    "trap": "remember/forget/regret 后接 doing 表\"做过\"，接 to do 表\"要去做\"，意义不同。",
+    "kind": "grammar",
+    "example": {
+      "stem": "It is no use ___ about the issue because he never changes his mind.",
+      "answer": "arguing",
+      "explain": "It's no use doing sth. 是固定句型，应填 arguing。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|固定句型 / since": {
+    "subject": "english",
+    "topic": "固定句型 / since",
+    "def": "since 既可作连词表\"自从/既然\"，也可作介词。",
+    "points": [
+      "\"It is/has been + 时间段 + since + 过去时从句\"表\"自从…已多久\"",
+      "since 引导原因状语从句表\"既然\"。"
+    ],
+    "trap": "since 从句用一般过去时，主句用现在完成时或 It is...；\"ever since\"后接时间点或从句。",
+    "kind": "grammar",
+    "example": {
+      "stem": "It is more than twenty years ___ Johnson came to Chengdu.",
+      "answer": "since",
+      "explain": "It is + 时间段 + since... 表示自从……以来已多久，应填 since。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|疑问词 / 插入语": {
+    "subject": "english",
+    "topic": "疑问词 / 插入语",
+    "def": "疑问词用于构成特殊疑问句；插入语是句子中补充说明的独立成分。",
+    "points": [
+      "特殊疑问句结构：疑问词 + 一般疑问句语序",
+      "插入语如 I think/I believe/what's more 通常用逗号隔开",
+      "插入语不影响句子主干的语序。"
+    ],
+    "trap": "当疑问词作主语时，句子用陈述语序（Who broke the window?）；do you think 作插入语时后面用陈述语序。",
+    "kind": "grammar",
+    "example": {
+      "stem": "___ do you think will be the best employee of the year in your company?",
+      "answer": "Who",
+      "explain": "对人提问用 who，do you think 为插入语，应填 Who。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|介词辨析": {
+    "subject": "english",
+    "topic": "介词辨析",
+    "def": "介词表示名词/代词与其他词的关系。",
+    "points": [
+      "in 表在…里/某段时间，on 表在…上/具体某天，at 表在某时刻/小地点",
+      "表时间的 in/on/at 区别",
+      "表方位的 in/on/to 区别（范围内/接壤/不接壤）。"
+    ],
+    "trap": "\"在树上\"：in the tree（外来物），on the tree（树本身长的）；具体某天上午用 on the morning of...。",
+    "kind": "grammar",
+    "example": {
+      "stem": "The exercise was ___ the abilities of most of the class.",
+      "answer": "beyond",
+      "explain": "beyond 表示超出，指练习超出大部分学生的能力，应填 beyond。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "english|形式宾语 it": {
+    "subject": "english",
+    "topic": "形式宾语 it",
+    "def": "it 作形式宾语，代替后置的真正宾语。",
+    "points": [
+      "结构：主语 + 动词 + it + 宾补 + 真正宾语（to do/that 从句）",
+      "常见动词 find/think/make/consider/feel。"
+    ],
+    "trap": "真正宾语是 to do 或 that 从句，it 本身无实义；\"make it clear that...\"是常见结构。",
+    "kind": "grammar",
+    "example": {
+      "stem": "We don't think ___ possible to master a foreign language without much memory work.",
+      "answer": "it",
+      "explain": "it 作形式宾语，真正宾语是后面的不定式，应填 it。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "english|名词词义辨析": {
+    "subject": "english",
+    "topic": "名词词义辨析",
+    "def": "近义名词在语义和用法上的区别。",
+    "points": [
+      "注意抽象名词与具体名词、可数与不可数",
+      "结合语境判断词义，如 voice/sound/noise、home/house/family。"
+    ],
+    "trap": "\"advice/suggestion\" advice 不可数，suggestion 可数；\"information/news\"均不可数。",
+    "kind": "grammar",
+    "example": {
+      "stem": "We need an umbrella on the beach to give us some ___ in such hot weather.",
+      "answer": "shade",
+      "explain": "shade 阴凉处；shell 贝壳；shadow 影子；shower 淋浴。沙滩上需要伞提供阴凉，应填 shade。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 2,
+    "relCount": 3,
+    "prioReason": "真题2道·考纲核心模块·关联3题"
+  },
+  "english|动词短语辨析": {
+    "subject": "english",
+    "topic": "动词短语辨析",
+    "def": "由动词+介词/副词构成的短语动词辨析。",
+    "points": [
+      "look after/look for/look up/look forward to",
+      "give up/give in/give out",
+      "turn on/turn off/turn up/turn down 等需结合语义记忆。"
+    ],
+    "trap": "look forward to 中 to 是介词，后接 doing；\"used to do\"（过去常常）与\"be used to doing\"（习惯于）不同。",
+    "kind": "grammar",
+    "example": {
+      "stem": "Whenever the man says something against his wife, she___ lose her temper.",
+      "answer": "tends to",
+      "explain": "句意:每当那个男人说反对他妻子的坏话时，她就会发脾气。tend to:倾向于，应填 tends to。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 2,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "english|动词词义辨析": {
+    "subject": "english",
+    "topic": "动词词义辨析",
+    "def": "近义动词在含义和搭配上的区别。",
+    "points": [
+      "spend/cost/take/pay 表\"花费\"的主语和搭配不同",
+      "borrow/lend/keep 表\"借\"的方向",
+      "raise/rise 及物与不及物。"
+    ],
+    "trap": "\"cost\"主语是物；\"spend...on/in doing\"主语是人；\"lend sb sth\"借出，\"borrow sth from\"借入。",
+    "kind": "grammar",
+    "example": {
+      "stem": "The success of Ne Zha 2 ___ the charm of traditional Chinese culture.",
+      "answer": "reflects",
+      "explain": "reflect 反映；reject 拒绝；recall 回忆；remind 提醒，应填 reflects。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 7,
+    "prioReason": "真题1道·考纲核心模块·关联7题"
+  },
+  "english|词汇与语法": {
+    "subject": "english",
+    "topic": "词汇与语法",
+    "def": "综合考查词汇运用与基础语法知识。",
+    "points": [
+      "涵盖冠词、代词、时态、语态、从句、非谓语、情态动词、固定搭配等",
+      "需结合上下文语境判断。"
+    ],
+    "trap": "做题时先分析句子结构（主干/修饰），再看时态语态和固定搭配，避免只看单个词。",
+    "kind": "grammar",
+    "example": {
+      "stem": "He devoted himself ___ the study of traditional Chinese painting.",
+      "answer": "to",
+      "explain": "devote oneself to 为固定搭配，to 是介词。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 58,
+    "prioReason": "关联58题"
+  },
+  "english|阅读理解": {
+    "subject": "english",
+    "topic": "阅读理解",
+    "def": "阅读理解考查对英文短文的信息获取与推理判断。",
+    "points": [
+      "先读题干定位关键词，再回原文找对应句",
+      "主旨题看首尾段和段首句",
+      "细节题注意原文同义替换",
+      "推理题不选原文直接照搬的。"
+    ],
+    "trap": "避免主观臆断，答案必须有原文依据；注意\"EXCEPT/NOT\"等否定提问。",
+    "kind": "reading",
+    "example": {
+      "stem": "According to the passage, the main reason students forget quickly is often ___.",
+      "answer": "an ineffective study method",
+      "explain": "首段明确\"问题通常不是记忆力，而是方法\"。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 15,
+    "prioReason": "考纲重点模块·关联15题"
+  },
+  "english|翻译": {
+    "subject": "english",
+    "topic": "翻译",
+    "def": "翻译考查英汉互译的准确性与表达通顺。",
+    "points": [
+      "英译汉先找主干再处理从句和修饰语",
+      "汉译英先确定主谓宾和时态语态",
+      "注意固定搭配和词性转换。"
+    ],
+    "trap": "英汉语序差异：英语定语后置多、汉语前置多；注意\".it 形式主语\"的译法。",
+    "kind": "grammar",
+    "example": {
+      "stem": "It is important that we should keep a good habit of reading.",
+      "answer": "我们应当保持良好阅读习惯，这一点很重要。",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 15,
+    "prioReason": "考纲核心模块·关联15题"
+  },
+  "english|词形填空": {
+    "subject": "english",
+    "topic": "词形填空",
+    "def": "词形填空要求根据语境用所给词的正确形式填空。",
+    "points": [
+      "判断空格所需词性（名词/动词/形容词/副词）",
+      "注意名词单复数、动词时态语态、形容词副词比较级、词性转换（care→careful→carefully）。"
+    ],
+    "trap": "副词修饰动词/形容词，形容词修饰名词；\"the + 比较级...the + 比较级\"表\"越…越…\"。",
+    "kind": "grammar",
+    "example": {
+      "stem": "The more careful you are, the ___ (few) mistakes you will make.",
+      "answer": "fewer",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 20,
+    "prioReason": "关联20题"
+  },
+  "english|非谓语动词": {
+    "subject": "english",
+    "topic": "非谓语动词",
+    "def": "非谓语动词指不作谓语的动词形式：不定式、动名词、分词。",
+    "points": [
+      "to do 表目的/将来，doing 表主动/进行，done 表被动/完成",
+      "作定语、状语、宾补时依据与主句逻辑主语的关系判断。"
+    ],
+    "trap": "现在分词表主动进行，过去分词表被动完成；\"with + 宾语 + 非谓语\"复合结构。",
+    "kind": "grammar",
+    "example": {
+      "stem": "_______ from the tallest building, the whole city looks very beautiful.",
+      "answer": "Seen",
+      "explain": "考查非谓语动词。句意:从最高的大楼看，整个城市看起来很美。有逗号无连接词，考查非谓语动词。see的逻辑主语是句子主语the whole city，city与see之间是被动的关系，用过去分词作状语，应填 Seen。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 5,
+    "prioReason": "考纲重点模块·关联5题"
+  },
+  "english|主谓一致": {
+    "subject": "english",
+    "topic": "主谓一致",
+    "def": "主语与谓语在人称和数上保持一致。",
+    "points": [
+      "and 连接两个主语一般谓语用复数（表同一人/物时用单数）",
+      "or/either...or/neither...nor 就近一致",
+      "集合名词（family/team）强调整体用单数、强调成员用复数。"
+    ],
+    "trap": "\"the number of\"（…的数量）谓语单数，\"a number of\"（许多）谓语复数；时间/距离/金钱作整体看待谓语用单数。",
+    "kind": "grammar",
+    "example": {
+      "stem": "He as well as his friends ________ very hard.",
+      "answer": "works",
+      "explain": "考查主谓一致。句意:他和他的朋友们工作都很努力。本句缺少谓语动词，空格处须填谓语形式（非谓语形式排除）。together with连接两个主语时句子谓语动词的数应遵从就远原则，所以本句的主语为he，是第三人称单数，应填 works。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "english|虚拟语气": {
+    "subject": "english",
+    "topic": "虚拟语气",
+    "def": "虚拟语气表与事实相反或主观假设。",
+    "points": [
+      "if 条件虚拟：与现在相反用过去式（be 用 were），与过去相反用 had done，与将来相反用 should/would + do",
+      "suggest/insist/require/order 等从句用 (should) + 动词原形。"
+    ],
+    "trap": "\"It is high time that + 主语 + 过去式\"；wish 从句的三种时间对应形式。",
+    "kind": "grammar",
+    "example": {
+      "stem": "My father insisted that every minute ____made full use of___ the work well.",
+      "answer": "be; to do",
+      "explain": "insist表示坚持要求，引导宾语从句时，从句要用虚拟语气:(should)+do。同类的动词是表示建议、命令、坚持、要求等意义的动词。to do the work well是不定式表目的状语，应填 be; to do。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 4,
+    "prioReason": "考纲重点模块·关联4题"
+  },
+  "english|状语从句/省略": {
+    "subject": "english",
+    "topic": "状语从句/省略",
+    "def": "状语从句表时间、条件、原因、结果等；某些从句可省略主语和 be 动词。",
+    "points": [
+      "when/while/if/although/as 引导的状语从句，若从句主语与主句一致且含 be，可省略主语+be",
+      "\"if possible/when necessary\"是常见省略。"
+    ],
+    "trap": "省略后剩下现在分词或过去分词，取决于与主句主语的主动/被动关系。",
+    "kind": "grammar",
+    "example": {
+      "stem": "If ________, the experiment will be successful.",
+      "answer": "done carefully",
+      "explain": "考查动词时态和副词。句意:如果做的认真点，这个实验将会成功。分析句子结构可知，前一句为 if 引导的条件状语从句，主句用了一般将来时，从句应遵循“主将从现”的原则，用一般现在时。另外，从句的主语和主句的主语 the experiment 相同，应填 done carefully。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "english|连词辨析": {
+    "subject": "english",
+    "topic": "连词辨析",
+    "def": "连词连接词、短语或句子，表不同逻辑关系。",
+    "points": [
+      "and 表并列，but 表转折，or 表选择，so 表结果",
+      "because/since/as/for 表原因（语气递减）",
+      "although/though 表让步（不能与 but 连用）。"
+    ],
+    "trap": "汉语\"虽然…但是…\"在英语中只能用 although 或 but 其一；\"because\"回答 why，\"since/as\"表已知原因。",
+    "kind": "grammar",
+    "example": {
+      "stem": "Be quick, ______ we’ll be late for school.",
+      "answer": "or",
+      "explain": "考查连词。句意:快点，否则我们上学要迟到了。and然后;but但是;or否则;so所以。根据Be quick与we’ll be late for school的句意可知，此处用“否则”表示转折，应填 or。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "english|宾语从句": {
+    "subject": "english",
+    "topic": "宾语从句",
+    "def": "宾语从句在句中作宾语，需注意语序、时态和连接词。",
+    "points": [
+      "用陈述语序",
+      "that 引导陈述句（可省），whether/if 引导一般疑问句，特殊疑问词引导特殊疑问句",
+      "主句过去时从句用相应过去时（客观真理除外）。"
+    ],
+    "trap": "否定转移：I don't think he is right（不译\"我认为他不对\"）；whether 可与 or not 连用，if 一般不可。",
+    "kind": "grammar",
+    "example": {
+      "stem": "We must find out________ Karl is coming, so we can book a room for him.",
+      "answer": "when",
+      "explain": "考查宾语从句的引导词。句意:我们必须查明。根据后面的内容可知，“卡尔要来，我们可以为他订一个房间”，可知，只有知道他什么时来了，才能给他订房间，应填 when。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "english|感叹句": {
+    "subject": "english",
+    "topic": "感叹句",
+    "def": "感叹句表达强烈感情，由 what 或 how 引导。",
+    "points": [
+      "What + (a/an) + 形容词 + 名词 + 主语 + 谓语！How + 形容词/副词 + 主语 + 谓语！",
+      "名词短语用 what，形容词副词用 how。"
+    ],
+    "trap": "\"What a nice day!\"与\"How nice the day is!\"；不可数名词前不加 a/an。",
+    "kind": "grammar",
+    "example": {
+      "stem": "______ his father works!",
+      "answer": "How carefully",
+      "explain": "考查感叹句。How后紧跟形容词副词,what后跟形容词加名词。并且副词修饰实意动词work，应填 How carefully。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "基础考点"
+  },
+  "english|介词短语辨析": {
+    "subject": "english",
+    "topic": "介词短语辨析",
+    "def": "介词短语由介词+宾语构成，作定语或状语。",
+    "points": [
+      "in front of（在…前）、in the front of（在…前部）",
+      "because of（因为）+ 名词，because + 句子",
+      "instead of + 名词/doing。"
+    ],
+    "trap": "注意介词后接名词/代词/doing；\"due to/owing to/thanks to\"的用法差别。",
+    "kind": "grammar",
+    "example": {
+      "stem": "I guess we’ve already talked about this before but I’ll ask you again just______.",
+      "answer": "in case",
+      "explain": "本题考查介词短语。分析四个选项的意思by nature天生地;in return作为回报，作为交换;in case万一，以防;by chance偶然地。根据句意我想我之前已经跟你谈论过这件事，但是以防万一，我再问你一次，应填 in case。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "english|倒装句": {
+    "subject": "english",
+    "topic": "倒装句",
+    "def": "倒装指谓语或助动词提到主语之前，分完全倒装和部分倒装。",
+    "points": [
+      "否定词（never/seldom/hardly/little/not only）置于句首用部分倒装",
+      "only+状语置于句首用部分倒装",
+      "so/such...that 中 so/such 置首也倒装。"
+    ],
+    "trap": "\"Only when he came did we know\"（主句倒装，从句不倒装）；\"So do I\"（我也一样）与\"So I do\"（确实如此）不同。",
+    "kind": "grammar",
+    "example": {
+      "stem": "Under no circumstances _______ the party.",
+      "answer": "shall we cancel",
+      "explain": "Under no circumstances“绝不”，否定短语位于句首，其后句子半倒装。“我们绝不会取消派对”，Under no circumstances中已经包含了“不”的含义，应填 shall we cancel。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "english|定语从句": {
+    "subject": "english",
+    "topic": "定语从句",
+    "def": "定语从句修饰名词或代词，由关系代词或关系副词引导。",
+    "points": [
+      "关系代词 who/whom/whose/which/that 指人/物",
+      "关系副词 when/where/why 表时间/地点/原因",
+      "先行词被最高级、序数词、all/everything 等修饰时用 that。"
+    ],
+    "trap": "that 不能引导非限制性定语从句（逗号后的从句）；\"the way that/in which/不填\"表方式。",
+    "kind": "grammar",
+    "example": {
+      "stem": "The size of audience,_______ we had excepted, was well over two thousand.",
+      "answer": "as",
+      "explain": "非限制性定语从句中，as we had expected“正如我们所料”为固定搭配，应填 as。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "english|形容词词义辨析": {
+    "subject": "english",
+    "topic": "形容词词义辨析",
+    "def": "近义形容词在语义与搭配上的区别。",
+    "points": [
+      "注意描述性形容词的情感色彩与适用对象，如 alone/lonely、alive/living/live、high/highly。"
+    ],
+    "trap": "\"lonely\"带感情色彩可作定语，alone 只作表语；\"highly\"是副词表\"高度地\"。",
+    "kind": "grammar",
+    "example": {
+      "stem": "Mary changed her dollars for the_______ amount of pounds.",
+      "answer": "equivalent",
+      "explain": "be likely to do;alike意为“像”，只能作表语，如Great minds think alike.(英雄所见略同),similar“相似的”，equivalent意为“等价的”，根据句意应填 equivalent。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "english|非谓语动词/虚拟语气": {
+    "subject": "english",
+    "topic": "非谓语动词/虚拟语气",
+    "def": "非谓语动词与虚拟语气综合运用。",
+    "points": [
+      "非谓语依据逻辑主语关系选择 to do/doing/done",
+      "虚拟语气依据时间（现在/过去/将来）选择对应形式。"
+    ],
+    "trap": "复合结构中判断主动被动是难点；\"suggest doing\"与\"suggest that sb (should) do\"结构不同。",
+    "kind": "grammar",
+    "example": {
+      "stem": "All factors____ into consideration, I insist that it____everyone’s duty to observe traffic rules to keep our society in order.",
+      "answer": "taken; is",
+      "explain": "第一空：句中已有谓语 insist，take 需用非谓语形式；factors 与 take 是被动关系，故用过去分词 taken。第二空：insist 表“坚持认为”时从句用陈述语气，主语 it 为单数，用 is。应填 taken; is。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "math|函数 / 定义域": {
+    "subject": "math",
+    "topic": "函数 / 定义域",
+    "def": "定义域是使函数表达式有意义的自变量取值集合。",
+    "points": [
+      "分式分母≠0",
+      "偶次根号内≥0",
+      "对数真数>0",
+      "三角函数按定义",
+      "复合函数逐层求交集。"
+    ],
+    "trap": "求定义域先看限制条件再求交集；f(x+1)的定义域指 x 的范围，不是括号内整体的范围。",
+    "kind": "math",
+    "example": {
+      "stem": "函数 $y=\\sqrt{6-x}+\\ln(x+1)$ 的定义域是（ ）。",
+      "answer": "$(-1,6]$",
+      "explain": "由 $6-x\\ge0$ 得 $x\\le6$，由 $x+1>0$ 得 $x>-1$，取交集得 $(-1,6]$。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "math|极限 / 重要极限": {
+    "subject": "math",
+    "topic": "极限 / 重要极限",
+    "def": "重要极限指 lim(sinx/x)=1 与 lim(1+1/x)^x=e 等基础极限。",
+    "points": [
+      "第一个重要极限：x→0 时 sinx/x→1",
+      "第二个：x→∞ 时 (1+1/x)^x→e，推广 (1+□)^(1/□)→e",
+      "注意变量替换。"
+    ],
+    "trap": "\"sinx/x\"中 x 必须趋于 0，且整体作为分母；第二个重要极限是 1^∞ 型，结果是 e 不是 1。",
+    "kind": "math",
+    "example": {
+      "stem": "下列选项正确的是（ ）。",
+      "answer": "$\\lim\\limits_{x\\to\\infty}(1+\\frac{1}{x})^{x}=e$",
+      "explain": "两个重要极限之一 $\\lim_{x\\to\\infty}(1+1/x)^x=e$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|导数 / 定义": {
+    "subject": "math",
+    "topic": "导数 / 定义",
+    "def": "导数是函数增量与自变量增量之比在增量趋于0时的极限。",
+    "points": [
+      "f'(x₀)=lim[Δx→0](f(x₀+Δx)-f(x₀))/Δx",
+      "导数几何意义是切线斜率",
+      "可导必连续，连续不一定可导。"
+    ],
+    "trap": "用定义求导时先写出增量比再取极限；\"在某点可导\"要求左右导数相等。",
+    "kind": "math",
+    "example": {
+      "stem": "已知 $f(x)=(x-1)(x-3)(x-5)(x-7)$，则 $f'(1)=$（ ）。",
+      "answer": "$-48$",
+      "explain": "由导数定义 $f'(1)=(-2)(-4)(-6)=-48$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|隐函数求导": {
+    "subject": "math",
+    "topic": "隐函数求导",
+    "def": "隐函数是由方程 F(x,y)=0 确定 y 与 x 关系的函数。",
+    "points": [
+      "方程两边对 x 求导，把 y 看作 x 的函数（遇 y 用链式法则乘 y'）",
+      "解出 y'",
+      "也可直接用公式 y'=-Fx/Fy。"
+    ],
+    "trap": "对 y 求导要乘 y'，如 (y²)'=2y·y'；别把 y 当常数。",
+    "kind": "math",
+    "example": {
+      "stem": "设 $y=y(x)$ 由方程 $x^3+y^3-2xy-1=0$ 确定，则 $\\left.\\frac{dy}{dx}\\right|_{x=0}=$（ ）。",
+      "answer": "$2/3$",
+      "explain": "$F_x=3x^2-2y,F_y=3y^2-2x$；$x=0$ 时 $y=1$，故 $y'=2/3$。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "math|导数应用 / 拐点": {
+    "subject": "math",
+    "topic": "导数应用 / 拐点",
+    "def": "拐点是曲线凹凸性发生改变的点。",
+    "points": [
+      "求二阶导数 f''(x)=0 的点，检查其左右两侧 f'' 是否变号",
+      "变号则为拐点，不变号则不是",
+      "拐点是坐标点 (x,f(x))。"
+    ],
+    "trap": "f''(x₀)=0 只是可疑点，必须验证两侧变号；拐点是点不是横坐标。",
+    "kind": "math",
+    "example": {
+      "stem": "已知曲线 $y=x^3+ax^2+x+b$ 的拐点为 $(1,2)$，则（ ）。",
+      "answer": "$a=-3,b=3$",
+      "explain": "$y''=6x+2a$，由 $y''(1)=0$ 得 $a=-3$，代入点得 $b=3$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|不定积分 / 原函数": {
+    "subject": "math",
+    "topic": "不定积分 / 原函数",
+    "def": "不定积分是求函数原函数的运算，结果含任意常数 C。",
+    "points": [
+      "∫f(x)dx=F(x)+C，其中 F'(x)=f(x)",
+      "基本积分公式",
+      "换元积分法（第一/第二类）",
+      "分部积分法 ∫udv=uv-∫vdu。"
+    ],
+    "trap": "结果必须加 +C；分部积分选 u 按\"反对幂三指\"顺序；换元后要回代原变量。",
+    "kind": "math",
+    "example": {
+      "stem": "设 $x^2\\ln x$ 是 $f(x)$ 的一个原函数，则 $\\int f'(x)dx=$（ ）。",
+      "answer": "$2x\\ln x+x+C$",
+      "explain": "$f(x)=(x^2\\ln x)'=2x\\ln x+x$，故 $\\int f'(x)dx=f(x)+C$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|多元函数微分学 / 偏导": {
+    "subject": "math",
+    "topic": "多元函数微分学 / 偏导",
+    "def": "偏导数是多元函数对某一自变量的变化率，其余变量视为常数。",
+    "points": [
+      "∂f/∂x 把 y 看作常数对 x 求导",
+      "∂f/∂y 同理",
+      "高阶偏导 ∂²f/∂x∂y 与 ∂²f/∂y∂x 在连续时相等。"
+    ],
+    "trap": "求偏导时其他变量当常数；复合函数偏导用链式法则画变量关系图。",
+    "kind": "math",
+    "example": {
+      "stem": "设 $z=e^{3x^2-y}$，则 $\\frac{1}{x}\\cdot\\frac{\\partial z}{\\partial x}+\\frac{1}{y}\\cdot\\frac{\\partial z}{\\partial y}=$（ ）。",
+      "answer": "$z$",
+      "explain": "由偏导数计算化简得结果为 $z$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|无穷级数 / 敛散性": {
+    "subject": "math",
+    "topic": "无穷级数 / 敛散性",
+    "def": "级数敛散性判断是判定无穷项求和是否收敛到有限值。",
+    "points": [
+      "正项级数：比较判别法、比值判别法（达朗贝尔）、根值判别法、积分判别法",
+      "交错级数用莱布尼茨判别法",
+      "调和级数 Σ1/n 发散，p 级数 Σ1/n^p 当 p>1 收敛。"
+    ],
+    "trap": "比值法极限=1 时失效需换方法；莱布尼茨要求通项单调递减趋于0；绝对收敛必收敛。",
+    "kind": "math",
+    "example": {
+      "stem": "下列级数中收敛的是（ ）。",
+      "answer": "$\\sum\\limits_{n=1}^{\\infty}\\left(\\frac{1}{3^n}+\\frac{1}{2^n}\\right)$",
+      "explain": "A 为两个收敛等比级数之和；B 通项不趋于 0；C 调和级数发散；D 与调和级数同阶发散。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|线性代数 / 行列式": {
+    "subject": "math",
+    "topic": "线性代数 / 行列式",
+    "def": "行列式是由方阵元素按规则计算出的一个数。",
+    "points": [
+      "二阶直接用对角线法则",
+      "三阶用展开或沙路法",
+      "n 阶按行/列展开",
+      "性质：交换两行变号、某行乘 k 提出 k、两行成比例值为0。"
+    ],
+    "trap": "上/下三角行列式=主对角线元素之积；行列式是数，矩阵是数表，二者不同。",
+    "kind": "math",
+    "example": {
+      "stem": "四阶行列式 $\\begin{vmatrix}2&0&2&5\\\\0&0&-2&2\\\\5&-2&2&2\\\\0&0&0&-5\\end{vmatrix}=$（ ）。",
+      "answer": "$40$",
+      "explain": "按第四行展开计算得 $40$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|线性代数 / 向量组相关性": {
+    "subject": "math",
+    "topic": "线性代数 / 向量组相关性",
+    "def": "向量组线性相关指存在不全为0的系数使线性组合为0。",
+    "points": [
+      "n 个 n 维向量：行列式=0 则相关，≠0 则无关",
+      "向量个数>维数必相关",
+      "秩<向量个数则相关",
+      "相关等价于存在一个向量可由其余线性表出。"
+    ],
+    "trap": "\"线性无关\"只有系数全为0才使组合为0；注意\"部分相关则整体相关\"。",
+    "kind": "math",
+    "example": {
+      "stem": "若向量组 $\\alpha_1=(1,0,1)^T,\\alpha_2=(2,a,-1)^T,\\alpha_3=(4,-2,1)^T$ 线性相关，则 $a=$（ ）。",
+      "answer": "$-2$",
+      "explain": "构成矩阵作初等变换，由秩小于 3 得 $-2-a=0$，故 $a=-2$。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|极限与连续 / 间断点": {
+    "subject": "math",
+    "topic": "极限与连续 / 间断点",
+    "def": "间断点是函数在该点不连续的点。",
+    "points": [
+      "第一类（左右极限都存在）：可去间断（左右相等但不等于函数值/无定义）、跳跃间断（左右不等）",
+      "第二类：左右至少一个不存在（含无穷间断、振荡间断）。"
+    ],
+    "trap": "先算左右极限分类；跳跃间断左右都存在但不相等；无穷间断属第二类。",
+    "kind": "math",
+    "example": {
+      "stem": "函数 $y=\\frac{x^2-9}{x^2-2x-3}$ 的可去间断点为 $x=$ ____。",
+      "answer": "3",
+      "explain": "分母零点 $x=-1,3$；$x=3$ 时分子分母同为零可约去",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|定积分 / 广义积分": {
+    "subject": "math",
+    "topic": "定积分 / 广义积分",
+    "def": "广义积分是积分区间无限或被积函数无界的积分。",
+    "points": [
+      "无穷限积分 ∫[a,+∞]f(x)dx=lim[t→+∞]∫[a,t]f(x)dx",
+      "瑕积分在瑕点处取极限",
+      "收敛则极限存在有限。"
+    ],
+    "trap": "广义积分先写成极限再算；判断敛散用比较法；\"∫1/x^p 从1到∞\"当 p>1 收敛。",
+    "kind": "math",
+    "example": {
+      "stem": "广义积分 $\\int_2^{+\\infty}\\frac{1}{x^3}dx=$ ____。",
+      "answer": "$\\frac{1}{8}$",
+      "explain": "$\\left[-\\frac{1}{2x^2}\\right]_2^{+\\infty}=1/8$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|常微分方程 / 二阶齐次": {
+    "subject": "math",
+    "topic": "常微分方程 / 二阶齐次",
+    "def": "二阶常系数齐次线性微分方程形如 y''+py'+qy=0。",
+    "points": [
+      "写特征方程 r²+pr+q=0",
+      "两不等实根 r1,r2：y=C1e^(r1x)+C2e^(r2x)",
+      "重根：y=(C1+C2x)e^(rx)",
+      "共轭复根 α±βi：y=e^(αx)(C1cosβx+C2sinβx)。"
+    ],
+    "trap": "特征方程要写对符号；复根情形别漏 e^(αx)；解含两个任意常数。",
+    "kind": "math",
+    "example": {
+      "stem": "已知 $y_1=e^{x}$ 是 $y''-7y'+qy=0$ 的一个解，则其通解为 $y=$ ____。",
+      "answer": "$C_1e^{6x}+C_2e^{x}$",
+      "explain": "代入得 $q=6$，特征根 $1,6$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|多元函数微分学 / 切平面": {
+    "subject": "math",
+    "topic": "多元函数微分学 / 切平面",
+    "def": "切平面是曲面在某点处的最佳线性近似平面。",
+    "points": [
+      "曲面 z=f(x,y) 在 (x₀,y₀) 处的切平面：z-z₀=f_x(x₀,y₀)(x-x₀)+f_y(x₀,y₀)(y-y₀)",
+      "法向量为 (f_x,f_y,-1)。"
+    ],
+    "trap": "先求两个偏导在该点的值；切平面方程与法向量对应；隐函数曲面用 F(x,y,z)=0 的梯度做法向量。",
+    "kind": "math",
+    "example": {
+      "stem": "曲面 $z=x^2+y^2$ 在点 $(1,-1,2)$ 处的切平面方程为 ____。",
+      "answer": "$2x-2y-z-2=0$",
+      "explain": "法向量 $(2,-2,-1)$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|无穷级数 / 收敛半径": {
+    "subject": "math",
+    "topic": "无穷级数 / 收敛半径",
+    "def": "幂级数 Σaₙxⁿ 的收敛半径 R 决定其收敛区间。",
+    "points": [
+      "R=lim|aₙ/aₙ₊₁|（比值法）或 1/limⁿ√|aₙ|（根值法）",
+      "R=0 只收敛于0，R=+∞ 处处收敛",
+      "求出 R 后单独讨论端点 x=±R。"
+    ],
+    "trap": "收敛半径后必须检验端点；系数为缺项（如只含 x²ⁿ）时用换元 t=x² 处理。",
+    "kind": "math",
+    "example": {
+      "stem": "幂级数 $\\sum\\limits_{n=1}^{\\infty}\\frac{5^n}{n-1}x^n$ 的收敛半径 $R=$ ____。",
+      "answer": "$\\frac{1}{5}$",
+      "explain": "比值法 $\\lim|a_{n+1}/a_n|=5$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|线性代数 / 方程组解的讨论": {
+    "subject": "math",
+    "topic": "线性代数 / 方程组解的讨论",
+    "def": "线性方程组解的情况由系数矩阵与增广矩阵的秩决定。",
+    "points": [
+      "r(A)=r(A|b)=n 有唯一解",
+      "r(A)=r(A|b)<n 有无穷多解",
+      "r(A)<r(A|b) 无解",
+      "n 为未知数个数。"
+    ],
+    "trap": "先比较 r(A) 与 r(A|b) 判有解，再看与 n 的关系判唯一；对齐次方程组必有零解。",
+    "kind": "math",
+    "example": {
+      "stem": "已知非齐次线性方程组 $\\begin{cases}x_1+3x_3=-2\\\\ x_1-x_2+ax_3=-4\\\\ 2x_1+ax_2+2x_3=a\\end{cases}$ 有无穷多解，则 $a=$ ____。",
+      "answer": "4",
+      "explain": "$R(A)=R(A|b)=2<3$ 时 $a=4$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "math|极限与连续": {
+    "subject": "math",
+    "topic": "极限与连续",
+    "def": "极限描述函数在某点附近的变化趋势；连续指极限值等于函数值。",
+    "points": [
+      "极限四则运算法则",
+      "等价无穷小替换（x→0 时 sinx~x, ln(1+x)~x, e^x-1~x, 1-cosx~x²/2）",
+      "洛必达法则求 0/0、∞/∞ 型",
+      "连续的三要素。"
+    ],
+    "trap": "等价无穷小只能在乘除中替换，加减中慎用；洛必达前先确认未定式；分段函数在分界点用定义判连续。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $\\lim_{x \\rightarrow 0}\\left( \\frac{1}{x} - \\frac{1}{e^{x} - 1} \\right)$。",
+      "answer": "$\\frac{1}{2}$",
+      "explain": "通分得 $\\frac{e^{x} - 1 - x}{x\\left( e^{x} - 1 \\right)} \\sim \\frac{x^{2}/2}{x^{2}} = \\frac{1}{2}$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 23,
+    "prioReason": "考纲重点模块·关联23题"
+  },
+  "math|导数与微分": {
+    "subject": "math",
+    "topic": "导数与微分",
+    "def": "导数是变化率，微分是函数增量的线性主部。",
+    "points": [
+      "基本求导公式与四则法则",
+      "复合函数链式法则",
+      "隐函数求导",
+      "参数方程求导 dy/dx=y'(t)/x'(t)",
+      "微分 dy=f'(x)dx。"
+    ],
+    "trap": "复合函数求导要逐层；\"微分\"含 dx，\"导数\"是比值；高阶导数注意符号。",
+    "kind": "math",
+    "example": {
+      "stem": "讨论 $f(x) = |x|$ 在 $x = 0$ 处的可导性。",
+      "answer": "不可导",
+      "explain": "左导数 $- 1$，右导数 $1$，二者不等。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 15,
+    "prioReason": "考纲重点模块·关联15题"
+  },
+  "math|导数应用": {
+    "subject": "math",
+    "topic": "导数应用",
+    "def": "导数用于求单调性、极值、最值与凹凸性。",
+    "points": [
+      "f'>0 递增，f'<0 递减",
+      "极值点处 f'=0 或不存在，两侧变号",
+      "最大值最小值比较极值与端点",
+      "f''>0 凹（下凸），f''<0 凸。"
+    ],
+    "trap": "驻点（f'=0）不一定是极值点，需验证变号；最值在闭区间上还要比较端点。",
+    "kind": "math",
+    "example": {
+      "stem": "验证 $f(x) = x^{2} - 4$ 在 $\\lbrack - 2,2\\rbrack$ 上满足罗尔定理，并求 $\\xi$。",
+      "answer": "在 $\\lbrack - 2,2\\rbrack$ 上连续、可导，且 $f( - 2) = f(2) = 0$；$f'(\\xi) = 2\\xi = 0$，得 $\\xi = 0$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 11,
+    "prioReason": "考纲重点模块·关联11题"
+  },
+  "math|不定积分": {
+    "subject": "math",
+    "topic": "不定积分",
+    "def": "不定积分是微分的逆运算。",
+    "points": [
+      "换元积分法（凑微分、变量代换）",
+      "分部积分法",
+      "有理函数积分（部分分式）",
+      "基本积分表。"
+    ],
+    "trap": "分部积分 u 的选择用\"反对幂指三\"；三角函数积分注意恒等变换；结果加 C。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $\\int\\left( 3x^{2} + \\frac{2}{x} \\right)dx$。",
+      "answer": "$x^{3} + 2\\ln|x| + C$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 32,
+    "prioReason": "考纲重点模块·关联32题"
+  },
+  "math|定积分": {
+    "subject": "math",
+    "topic": "定积分",
+    "def": "定积分是函数在区间上的积分，结果是一个数。",
+    "points": [
+      "牛顿-莱布尼茨公式 ∫[a,b]f(x)dx=F(b)-F(a)",
+      "定积分性质（区间可加、奇偶对称）",
+      "换元与分部",
+      "变上限积分求导。"
+    ],
+    "trap": "奇函数在对称区间积分为0，偶函数为2倍半区间；定积分与不定积分本质不同；变上限积分求导用牛顿-莱布尼茨。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $y = \\sqrt{x}$ 在 $\\lbrack 0,1\\rbrack$ 上绕 $x$ 轴旋转所得旋转体体积。",
+      "answer": "$\\frac{\\pi}{2}$",
+      "explain": "$V = \\pi\\int_{0}^{1}x\\, dx = \\frac{\\pi}{2}$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 10,
+    "prioReason": "考纲重点模块·关联10题"
+  },
+  "math|向量代数与空间解析几何": {
+    "subject": "math",
+    "topic": "向量代数与空间解析几何",
+    "def": "研究空间中的向量运算与平面、直线的方程。",
+    "points": [
+      "向量点积 a·b=|a||b|cosθ",
+      "叉积 a×b 的模=|a||b|sinθ",
+      "平面方程 Ax+By+Cz+D=0",
+      "直线对称式与参数式",
+      "点到平面距离公式。"
+    ],
+    "trap": "点积结果是数，叉积结果是向量；平面法向量是 (A,B,C)；两平面垂直法向量点积为0。",
+    "kind": "math",
+    "example": {
+      "stem": "$\\overrightarrow{a} = (1,2,3)$、$\\overrightarrow{b} = (2, - 1,0)$，判断两向量是否垂直。",
+      "answer": "垂直（$\\overrightarrow{a} \\cdot \\overrightarrow{b} = 2 - 2 = 0$）",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 24,
+    "prioReason": "考纲核心模块·关联24题"
+  },
+  "math|多元函数微分学": {
+    "subject": "math",
+    "topic": "多元函数微分学",
+    "def": "多元函数的偏导、全微分与复合函数求导。",
+    "points": [
+      "偏导数",
+      "全微分 dz=f_x dx+f_y dy",
+      "复合函数链式法则",
+      "隐函数求导",
+      "方向导数与梯度。"
+    ],
+    "trap": "全微分存在要求偏导连续；复合函数画树状图理清变量关系。",
+    "kind": "math",
+    "example": {
+      "stem": "计算 $\\iint_{D}^{}e^{x^{2} + y^{2}}\\, d\\sigma$，其中 $D:x^{2} + y^{2} \\leq 1$。",
+      "answer": "$\\pi(e - 1)$",
+      "explain": "极坐标下 $\\int_{0}^{2\\pi}\\int_{0}^{1}e^{r^{2}}r\\, drd\\theta = 2\\pi \\cdot \\frac{e - 1}{2} = \\pi(e - 1)$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 8,
+    "prioReason": "考纲重点模块·关联8题"
+  },
+  "math|无穷级数": {
+    "subject": "math",
+    "topic": "无穷级数",
+    "def": "数项级数的敛散性与幂级数。",
+    "points": [
+      "正项级数判别法",
+      "交错级数莱布尼茨法",
+      "绝对收敛与条件收敛",
+      "幂级数收敛半径与收敛域",
+      "函数展开成幂级数。"
+    ],
+    "trap": "条件收敛：原级数收敛但绝对值级数发散；级数收敛的必要条件是通项趋于0（不满足必发散）。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $\\sum_{n = 1}^{\\infty}\\left( \\frac{2}{3} \\right)^{n}$ 的和。",
+      "answer": "$2$",
+      "explain": "等比级数，公比 $\\frac{2}{3}$，和 $= \\frac{2/3}{1 - 2/3} = 2$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 23,
+    "prioReason": "考纲重点模块·关联23题"
+  },
+  "math|常微分方程": {
+    "subject": "math",
+    "topic": "常微分方程",
+    "def": "含未知函数导数的方程。",
+    "points": [
+      "可分离变量方程",
+      "一阶线性微分方程 y'+P(x)y=Q(x) 的通解公式",
+      "二阶常系数齐次方程",
+      "二阶非齐次方程特解设法。"
+    ],
+    "trap": "一阶线性方程要化为标准形式再套公式；非齐次通解=齐次通解+非齐次特解。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $y'' - y = 0$ 满足 $y(0) = 0$、$y'(0) = 1$ 的特解。",
+      "answer": "特征根 $r = \\pm 1$，$y = C_{1}e^{x} + C_{2}e^{- x}$；由条件得 $C_{1} = \\frac{1}{2}$，$C_{2} = - \\frac{1}{2}$，即 $y = \\frac{e^{x} - e^{- x}}{2}$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 22,
+    "prioReason": "考纲重点模块·关联22题"
+  },
+  "math|线性代数": {
+    "subject": "math",
+    "topic": "线性代数",
+    "def": "行列式、矩阵、向量与线性方程组。",
+    "points": [
+      "行列式计算",
+      "矩阵运算与逆矩阵",
+      "矩阵的秩",
+      "向量组相关性",
+      "线性方程组解的判定",
+      "特征值与特征向量。"
+    ],
+    "trap": "矩阵乘法不满足交换律；只有方阵才有行列式和特征值；可逆矩阵行列式≠0。",
+    "kind": "math",
+    "example": {
+      "stem": "解方程组 $\\left\\{ \\begin{matrix} x + y = 3 \\\\ x - y = 1 \\end{matrix} \\right.$。",
+      "answer": "$x = 2$，$y = 1$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 36,
+    "prioReason": "考纲重点模块·关联36题"
+  },
+  "math|函数、极限与连续": {
+    "subject": "math",
+    "topic": "函数、极限与连续",
+    "def": "函数概念、极限计算与连续性综合。",
+    "points": [
+      "函数定义域值域",
+      "极限计算（等价无穷小、洛必达、重要极限）",
+      "连续性判断",
+      "间断点分类",
+      "闭区间上连续函数性质（最值定理、介值定理）。"
+    ],
+    "trap": "复合函数定义域是难点；分段函数在分界点讨论连续与极限要左右分别算。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $\\lim_{x \\rightarrow \\infty}\\left( \\sqrt{x + 1} - \\sqrt{x} \\right)$。",
+      "answer": "$0$（分子有理化）",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 25,
+    "prioReason": "考纲重点模块·关联25题"
+  },
+  "math|一元函数微分学": {
+    "subject": "math",
+    "topic": "一元函数微分学",
+    "def": "导数计算与应用的综合。",
+    "points": [
+      "求导法则",
+      "高阶导数",
+      "隐函数与参数方程求导",
+      "中值定理（罗尔、拉格朗日）",
+      "单调性、极值、最值、凹凸与拐点。"
+    ],
+    "trap": "罗尔定理要求端点函数值相等；极值是局部概念，最值是全局概念。",
+    "kind": "math",
+    "example": {
+      "stem": "设 $y=\\frac{e^{x}}{x}$，求 $y'$。",
+      "answer": "$\\frac{e^{x}(x-1)}{x^{2}}$",
+      "explain": "商的求导：$\\frac{e^{x}\\cdot x-e^{x}}{x^{2}}=\\frac{e^{x}(x-1)}{x^{2}}$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 31,
+    "prioReason": "考纲重点模块·关联31题"
+  },
+  "math|中值定理与导数的应用": {
+    "subject": "math",
+    "topic": "中值定理与导数的应用",
+    "def": "罗尔、拉格朗日、柯西中值定理及导数应用。",
+    "points": [
+      "罗尔定理：端点值相等则存在 ξ 使 f'=0",
+      "拉格朗日：f(b)-f(a)=f'(ξ)(b-a)",
+      "洛必达法则",
+      "函数性态分析。"
+    ],
+    "trap": "中值定理条件（连续+可导）必须满足；洛必达仅用于 0/0 与 ∞/∞ 未定式。",
+    "kind": "math",
+    "example": {
+      "stem": "若 $f(x) = x^{3} + ax$ 在 $( - \\infty, + \\infty)$ 上单调递增，求 $a$ 的取值范围。",
+      "answer": "$a \\geq 0$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 24,
+    "prioReason": "考纲重点模块·关联24题"
+  },
+  "math|定积分及其应用": {
+    "subject": "math",
+    "topic": "定积分及其应用",
+    "def": "定积分计算与几何、物理应用。",
+    "points": [
+      "牛顿-莱布尼茨公式",
+      "平面图形面积",
+      "旋转体体积",
+      "弧长",
+      "变力做功。"
+    ],
+    "trap": "面积要对 |f(x)| 积分或分段；旋转体体积公式区分绕 x 轴/y 轴。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $y = \\sin x$ 在 $\\lbrack 0,\\pi\\rbrack$ 上绕 $x$ 轴旋转所得旋转体体积。",
+      "answer": "$\\frac{\\pi^{2}}{2}$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 22,
+    "prioReason": "考纲重点模块·关联22题"
+  },
+  "math|多元函数微分学与二重积分": {
+    "subject": "math",
+    "topic": "多元函数微分学与二重积分",
+    "def": "多元函数偏导与二重积分计算。",
+    "points": [
+      "偏导与全微分",
+      "复合函数求导",
+      "二重积分化为累次积分",
+      "直角坐标与极坐标变换。"
+    ],
+    "trap": "二重积分换序要重画积分区域；极坐标下面积元素为 r dr dθ（别漏 r）。",
+    "kind": "math",
+    "example": {
+      "stem": "$z = \\ln\\left( x^{2} + y^{2} \\right)$，求 $\\frac{\\partial z}{\\partial x}$。",
+      "answer": "$\\frac{2x}{x^{2} + y^{2}}$",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 20,
+    "prioReason": "考纲重点模块·关联20题"
+  },
+  "math|极限/重要极限": {
+    "subject": "math",
+    "topic": "极限/重要极限",
+    "def": "重要极限及其在极限计算中的应用。",
+    "points": [
+      "lim(x→0) sinx/x=1",
+      "lim(x→∞)(1+1/x)^x=e",
+      "通过变量代换推广使用。"
+    ],
+    "trap": "注意\"1^∞\"型极限结果是 e；第二个重要极限的底必须趋于1且指数趋于∞。",
+    "kind": "math",
+    "example": {
+      "stem": "求极限：$\\lim_{x \\to 0} \\frac{\\sin x}{x}$",
+      "answer": "1",
+      "explain": "这是一个经典的极限问题，可以直接利用重要极限 $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$ 得到答案。解法二利用洛必达法则:$\\lim_{x \\to 0} \\frac{\\sin x}{x} = \\lim_{x \\to 0} \\frac{\\cos x}{1} = 1$。",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "math|导数应用/极值": {
+    "subject": "math",
+    "topic": "导数应用/极值",
+    "def": "利用导数求函数的极值。",
+    "points": [
+      "f'(x₀)=0 且左正右负为极大值，左负右正为极小值",
+      "也可看二阶导 f''>0 极小、f''<0 极大（f'=0 时）。"
+    ],
+    "trap": "极值点是点的横坐标，极值是函数值；f''(x₀)=0 时二阶判别法失效，需用一阶变号。",
+    "kind": "math",
+    "example": {
+      "stem": "已知函数 $f(x) = x^3 - 3x^2 + 2$，求 $f(x)$ 的单调区间和极值。",
+      "answer": "极大值 $f(0)=2$，极小值 $f(2)=-2$；在 $(-\\infty, 0)$ 和 $(2, +\\infty)$ 上单调递增，在 $(0, 2)$ 上单调递减",
+      "explain": "求导数:$f'(x) = 3x^2 - 6x$，令 $f'(x) = 0$，解得 $x = 0$ 或 $x = 2$。列表分析:区间 $(-\\infty, 0)$、$(0, 2)$、$(2, +\\infty)$ 上 $f'(x)$ 符号分别为 $+$、$-$、$+$，故 $f(x)$ 在 $(-\\infty, 0)$ 和 $(2, +\\infty)$ 上单调递增，在 $(0, 2)$ 上单调递减。在 $x = 0$ 处取得极大值 $f(0) = 2$，在 $x = 2$ 处取得极小值 $f(2) = -2$。",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "math|定积分/计算": {
+    "subject": "math",
+    "topic": "定积分/计算",
+    "def": "定积分的具体计算方法。",
+    "points": [
+      "牛顿-莱布尼茨公式",
+      "换元法（注意换限）",
+      "分部积分法",
+      "利用奇偶性简化对称区间积分。"
+    ],
+    "trap": "换元法换变量时上下限要跟着换；凑微分法求原函数时不必换限（因为最后回代）。",
+    "kind": "math",
+    "example": {
+      "stem": "计算定积分：$\\int_{0}^{1} x^2 dx$",
+      "answer": "\\frac{1}{3}",
+      "explain": "求原函数:$\\int x^2 dx = \\frac{1}{3}x^3 + C$。计算定积分:$\\int_{0}^{1} x^2 dx = [\\frac{1}{3}x^3]_{0}^{1} = \\frac{1}{3}(1^3 - 0^3) = \\frac{1}{3}$。",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "math|积分学": {
+    "subject": "math",
+    "topic": "积分学",
+    "def": "不定积分与定积分的综合。",
+    "points": [
+      "原函数与不定积分",
+      "换元与分部积分",
+      "定积分公式与应用",
+      "广义积分敛散性。"
+    ],
+    "trap": "区分不定积分（函数族含C）与定积分（数值）；分部积分与换元灵活选用。",
+    "kind": "math",
+    "example": {
+      "stem": "求 $\\int_{0}^{\\frac{\\pi}{2}}\\sin x\\,dx$。",
+      "answer": "$1$",
+      "explain": "$[-\\cos x]_{0}^{\\pi/2}=0-(-1)=1$。",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 4,
+    "prioReason": "考纲重点模块·关联4题"
+  },
+  "cs|计算机硬件 / 输入输出设备": {
+    "subject": "cs",
+    "topic": "计算机硬件 / 输入输出设备",
+    "def": "输入设备向计算机输入信息，输出设备输出处理结果。",
+    "points": [
+      "输入设备：键盘、鼠标、扫描仪、条形码阅读器、数码相机",
+      "输出设备：显示器、打印机、绘图仪、音箱",
+      "兼具输入输出：磁盘、触摸屏、调制解调器。"
+    ],
+    "trap": "显示器是输出设备不是输入；键盘鼠标是最常见的输入设备；磁盘既是输入又是输出（存储）。",
+    "kind": "cs",
+    "example": {
+      "stem": "下列可作为输出又可作为输入设备的是（ ）。",
+      "answer": "触摸屏",
+      "explain": "触摸屏既可接收触摸输入，也能显示信息作为输出；绘图仪仅输出，扫描仪、手写板仅输入。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|操作系统 / 文件操作": {
+    "subject": "cs",
+    "topic": "操作系统 / 文件操作",
+    "def": "操作系统管理文件资源的创建、删除、复制、移动、重命名等。",
+    "points": [
+      "文件路径分绝对路径（从根目录起）和相对路径（从当前目录起）",
+      "Windows 文件名不区分大小写、不能含 \\/:*?\"<>|",
+      "回收站中的文件可还原。"
+    ],
+    "trap": "移动与复制的区别：移动原位置删除，复制保留；永久删除（Shift+Delete）不进回收站。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 系统中，用鼠标选取多个不连续的文件或文件夹时，需要按住的键是（ ）。",
+      "answer": "Ctrl",
+      "explain": "Ctrl 选取多个不连续对象，Shift 选取连续对象。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|操作系统 / 快捷键": {
+    "subject": "cs",
+    "topic": "操作系统 / 快捷键",
+    "def": "快捷键是用键盘组合快速执行操作的方式。",
+    "points": [
+      "Ctrl+C 复制、Ctrl+V 粘贴、Ctrl+X 剪切、Ctrl+Z 撤销、Ctrl+S 保存、Ctrl+A 全选",
+      "Alt+F4 关闭窗口",
+      "Ctrl+Shift+Esc 打开任务管理器。"
+    ],
+    "trap": "Ctrl+Z 是撤销不是恢复；恢复/重做是 Ctrl+Y；注意与 Alt 组合的区别。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 系统中，只对当前活动窗口截图的是（ ）。",
+      "answer": "Alt+PrintScreen",
+      "explain": "Alt+PrintScreen 截取当前活动窗口；Ctrl+PrintScreen 截取全屏。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|多媒体 / 图像文件格式": {
+    "subject": "cs",
+    "topic": "多媒体 / 图像文件格式",
+    "def": "图像文件格式是图像数据的存储编码方式。",
+    "points": [
+      "JPEG(.jpg) 有损压缩、适合照片",
+      "PNG 无损压缩支持透明",
+      "GIF 支持动画、256色",
+      "BMP 不压缩体积大",
+      "TIFF 适合印刷。"
+    ],
+    "trap": "JPEG 有损、PNG/GIF 无损；GIF 颜色数有限但支持动画；矢量图与位图的区别。",
+    "kind": "cs",
+    "example": {
+      "stem": "下列哪个是矢量图的文件格式（ ）。",
+      "answer": "WMF",
+      "explain": "WMF 是矢量图格式；GIF、JPG、PNG 为位图格式。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|数据库 / 数据库管理系统": {
+    "subject": "cs",
+    "topic": "数据库 / 数据库管理系统",
+    "def": "数据库(DB)是结构化数据集合，DBMS 是管理数据库的软件。",
+    "points": [
+      "常见 DBMS：Access、SQL Server、Oracle、MySQL、SQLite",
+      "数据库系统的核心是 DBMS",
+      "数据库具有数据共享、减少冗余、数据独立性特点。"
+    ],
+    "trap": "DB 是数据集合，DBMS 是软件，DBS 是包括硬件软件人员的系统；Access 是桌面型 DBMS。",
+    "kind": "cs",
+    "example": {
+      "stem": "下列不属于数据库的是（ ）。",
+      "answer": "Chrome",
+      "explain": "Access、MySQL、Oracle 均为数据库管理系统；Chrome 是网页浏览器。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|数据库 / 数据模型": {
+    "subject": "cs",
+    "topic": "数据库 / 数据模型",
+    "def": "数据模型描述数据的组织方式和联系。",
+    "points": [
+      "关系模型用二维表表示（最常用）",
+      "层次模型用树形",
+      "网状模型用图形",
+      "关系模型由 E.F.Codd 提出。"
+    ],
+    "trap": "关系模型的逻辑结构是二维表；层次模型是树、网状是图；注意三种模型的区别。",
+    "kind": "cs",
+    "example": {
+      "stem": "数据系统中基于规范化的二维表数据模型是（ ）。",
+      "answer": "关系模型",
+      "explain": "关系模型基于规范化的二维表组织数据。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 2,
+    "relCount": 2,
+    "prioReason": "真题2道·考纲重点模块"
+  },
+  "cs|数据库 / SQL": {
+    "subject": "cs",
+    "topic": "数据库 / SQL",
+    "def": "SQL 是结构化查询语言，用于数据库操作。",
+    "points": [
+      "SELECT 查询、INSERT 插入、UPDATE 更新、DELETE 删除",
+      "SELECT * FROM 表 WHERE 条件",
+      "COUNT/SUM/AVG/MAX/MIN 聚合函数。"
+    ],
+    "trap": "WHERE 对记录过滤，HAVING 对分组过滤；DELETE 与 DROP 区别（删记录 vs 删表）。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 SQL Server 中创建数据表使用的命令是（ ）。",
+      "answer": "CREATE",
+      "explain": "CREATE 建表，SELECT 查询，INSERT 插入，UPDATE 更新。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机新技术 / 大数据": {
+    "subject": "cs",
+    "topic": "计算机新技术 / 大数据",
+    "def": "大数据指数据量巨大、类型多样、处理速度快的数据集合。",
+    "points": [
+      "大数据的 4V 特征：Volume（量大）、Variety（多样）、Velocity（高速）、Value（价值密度低）",
+      "核心技术：Hadoop、Spark、分布式存储与计算。"
+    ],
+    "trap": "4V 特征是常考点；价值密度低是大数据的重要特点；大数据不等于\"数据多\"。",
+    "kind": "cs",
+    "example": {
+      "stem": "下面哪个不是大数据的 5V 特征（ ）。",
+      "answer": "Veracity 数据有效性高",
+      "explain": "大数据 5V 为 Volume、Velocity、Variety、Value、Veracity，其中 Veracity 指数据真实性/质量；本题要选“不属于/说法错误”的一项，故答案是把 Veracity 解释为「数据有效性高」这一错误表述。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|办公自动化 / Excel 错误值": {
+    "subject": "cs",
+    "topic": "办公自动化 / Excel 错误值",
+    "def": "Excel 错误值是公式计算出错时的提示。",
+    "points": [
+      "#DIV/0! 除数为0",
+      "#N/A 值不可用",
+      "#NAME? 名称错误",
+      "#REF! 引用无效",
+      "#VALUE! 值类型错误",
+      "#NUM! 数字错误",
+      "#### 列宽不足。"
+    ],
+    "trap": "#### 是列宽不够不是公式错误；#DIV/0! 是除以零；#REF! 是引用了不存在的单元格。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Excel 单元格中出现错误提示「#VALUE!」的原因是（ ）。",
+      "answer": "公式中使用了错误的数据类型",
+      "explain": "#VALUE! 为数据类型错误；超宽显示 ####；引用被删显示 #REF!；除数为 0 显示 #DIV/0!。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机基础 / 发展史": {
+    "subject": "cs",
+    "topic": "计算机基础 / 发展史",
+    "def": "计算机发展按所用电子元件划分为四代。",
+    "points": [
+      "第一代电子管、第二代晶体管、第三代集成电路、第四代大规模超大规模集成电路",
+      "第一台电子计算机 ENIAC 1946 年美国诞生",
+      "冯·诺依曼提出存储程序原理。"
+    ],
+    "trap": "四代划分依据是电子元件；ENIAC 用于军事计算；冯·诺依曼被称为\"计算机之父\"。",
+    "kind": "cs",
+    "example": {
+      "stem": "电子数字积分计算机（ENIAC）使用的核心元器件是（ ）。",
+      "answer": "电子管",
+      "explain": "第一代计算机 ENIAC 使用电子管。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|办公自动化 / Word 目录": {
+    "subject": "cs",
+    "topic": "办公自动化 / Word 目录",
+    "def": "Word 目录可自动提取文档标题生成。",
+    "points": [
+      "自动生成目录前需先为标题设置标题样式（标题1/2/3）",
+      "引用→目录→自动目录",
+      "更新目录用\"更新域\"",
+      "目录可跳转到对应标题。"
+    ],
+    "trap": "必须先设置标题样式才能自动生成目录；手动输入的不叫自动目录；页码变化后要更新目录。",
+    "kind": "cs",
+    "example": {
+      "stem": "Word 里可以设置的目录最多为（ ）级。",
+      "answer": "9",
+      "explain": "Word 目录最多可设置 9 级。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|办公自动化 / Word 绘图": {
+    "subject": "cs",
+    "topic": "办公自动化 / Word 绘图",
+    "def": "Word 提供绘制图形和插入图片的功能。",
+    "points": [
+      "插入形状（线条、矩形、箭头）",
+      "图片环绕方式：嵌入型、四周型、紧密型、衬于文字下方、浮于文字上方",
+      "组合与对齐图形。"
+    ],
+    "trap": "环绕方式决定图文位置关系；\"衬于文字下方\"作水印；嵌入型当作字符处理。",
+    "kind": "cs",
+    "example": {
+      "stem": "Word 中用「矩形」形状绘制正方形，正确的快捷键操作是（ ）。",
+      "answer": "Shift+鼠标拖放",
+      "explain": "按住 Shift 拖动可绘制正方形/正圆。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|网络与信息安全 / 常用命令": {
+    "subject": "cs",
+    "topic": "网络与信息安全 / 常用命令",
+    "def": "网络常用命令用于查看和测试网络连接。",
+    "points": [
+      "ipconfig 查看本机 IP 配置",
+      "ping 测试连通性",
+      "tracert 跟踪路由路径",
+      "netstat 查看网络连接状态",
+      "nslookup 查询 DNS。"
+    ],
+    "trap": "ipconfig /all 显示详细信息；ping 基于 ICMP 协议；tracert 显示经过的路由器。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 命令窗口，可用于检查网络连通情况的命令是（ ）。",
+      "answer": "ping",
+      "explain": "ping 用于检查网络连通性。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|网络与信息安全 / 网络设备": {
+    "subject": "cs",
+    "topic": "网络与信息安全 / 网络设备",
+    "def": "网络设备用于组建和连接网络。",
+    "points": [
+      "网卡(NIC)连接计算机与网络",
+      "交换机(Switch)局域网内转发、隔离冲突域",
+      "路由器(Router)连接不同网络、选择路径",
+      "调制解调器(Modem)数模转换",
+      "集线器(Hub)已逐渐淘汰。"
+    ],
+    "trap": "交换机工作在第二层（数据链路层），路由器在第三层（网络层）；路由器连接不同网段。",
+    "kind": "cs",
+    "example": {
+      "stem": "在下列硬件设备中，工作在网络层的是（ ）。",
+      "answer": "路由器",
+      "explain": "路由器工作在网络层；网卡在数据链路层/物理层；集线器在物理层。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|办公自动化 / Excel 混合引用": {
+    "subject": "cs",
+    "topic": "办公自动化 / Excel 混合引用",
+    "def": "Excel 单元格引用分相对、绝对和混合引用。",
+    "points": [
+      "相对引用 A1（复制时行列都变）",
+      "绝对引用 $A$1（都不变）",
+      "混合引用 $A1（列不变行变）、A$1（行不变列变）",
+      "$ 锁定其后的行或列。"
+    ],
+    "trap": "$ 加在字母前锁列、加在数字前锁行；复制公式时看清哪个方向要固定。",
+    "kind": "cs",
+    "example": {
+      "stem": "Excel 中单元格 C1 公式为「=$A$1*SUM($B$1:$B$3)」，将 C1 复制到 D3，则 D3 的公式是（ ）。",
+      "answer": "=$A$1*SUM($B$3:$B$5)",
+      "explain": "绝对引用 $A$1 不变；SUM 范围随位置偏移（列+1、行+2）变为 $B$3:$B$5，应填 =$A$1*SUM($B$3:$B$5)。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|操作系统 / 虚拟内存": {
+    "subject": "cs",
+    "topic": "操作系统 / 虚拟内存",
+    "def": "虚拟内存是用硬盘空间模拟内存的技术。",
+    "points": [
+      "当物理内存不足时，系统将部分数据换出到硬盘的页面文件",
+      "虚拟内存=物理内存+页面文件",
+      "作用：扩大可用内存空间。"
+    ],
+    "trap": "虚拟内存速度慢于物理内存；页面文件在硬盘上；它不是真正的内存。",
+    "kind": "cs",
+    "example": {
+      "stem": "如果操作系统设置了虚拟内存，则程序不用加载到物理内存即可直接被 CPU 执行。",
+      "answer": "错误",
+      "explain": "错误。程序仍需先加载到物理内存才能被 CPU 执行，虚拟内存只是物理内存不足时的补充。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|操作系统 / 文件系统": {
+    "subject": "cs",
+    "topic": "操作系统 / 文件系统",
+    "def": "文件系统是操作系统管理文件的方法和数据结构。",
+    "points": [
+      "Windows 常用 NTFS、FAT32",
+      "文件目录采用树形结构",
+      "文件路径有绝对路径和相对路径",
+      "文件属性：只读、隐藏、系统、存档。"
+    ],
+    "trap": "NTFS 支持大文件和权限管理，FAT32 单个文件≤4GB；树形目录便于分类管理。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 系统中，一个文件大小为 4KB，其占用的磁盘空间可能会超过 4KB。",
+      "answer": "正确",
+      "explain": "正确。文件按簇分配，实际占用空间可能大于文件本身大小。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|计算机硬件 / 存储器": {
+    "subject": "cs",
+    "topic": "计算机硬件 / 存储器",
+    "def": "存储器分内存储器和外存储器。",
+    "points": [
+      "内存储器：RAM（断电丢失）、ROM（断电不丢）",
+      "外存储器：硬盘、U盘、光盘、固态硬盘",
+      "存取速度：寄存器>缓存>内存>外存。"
+    ],
+    "trap": "RAM 断电数据丢失，ROM 不丢失；内存是 CPU 直接访问的，外存需调入内存才能被 CPU 处理。",
+    "kind": "cs",
+    "example": {
+      "stem": "计算机外存容量越大，则可存储的数据越多，读写速度越快。",
+      "answer": "错误",
+      "explain": "错误。容量与读写速度无直接正向关联，外存通常比内存慢。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|网络与信息安全 / 域名": {
+    "subject": "cs",
+    "topic": "网络与信息安全 / 域名",
+    "def": "域名是便于记忆的 IP 地址别名，由 DNS 解析。",
+    "points": [
+      "域名结构：主机名.二级域名.顶级域名",
+      "顶级域名如 .com/.cn/.edu/.gov/.org",
+      "DNS 将域名解析为 IP 地址",
+      "IP 地址是数字，域名便于记忆。"
+    ],
+    "trap": "www.baidu.com 中 com 是顶级域名、baidu 是二级域名；DNS 作用是域名→IP。",
+    "kind": "cs",
+    "example": {
+      "stem": "网站可以通过域名和 IP 地址访问。",
+      "answer": "正确",
+      "explain": "正确。域名经 DNS 解析为 IP 地址。",
+      "kind": "判断"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|操作系统 / 进程": {
+    "subject": "cs",
+    "topic": "操作系统 / 进程",
+    "def": "进程是程序在计算机上的一次执行活动。",
+    "points": [
+      "进程是资源分配的基本单位",
+      "线程是 CPU 调度的基本单位",
+      "进程有就绪、运行、阻塞三种基本状态",
+      "一个程序可对应多个进程。"
+    ],
+    "trap": "程序是静态的，进程是动态的；进程是资源分配单位，线程是调度单位。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 中一个运行的软件会有一个进程，所以进程与软件是一一对应的。",
+      "answer": "错误",
+      "explain": "错误。一个软件可能对应多个进程。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|办公自动化 / Word 格式": {
+    "subject": "cs",
+    "topic": "办公自动化 / Word 格式",
+    "def": "Word 文档格式设置包括字符、段落和页面格式。",
+    "points": [
+      "字符格式：字体、字号、加粗、颜色",
+      "段落格式：对齐、缩进、行距、段间距",
+      "格式刷复制格式",
+      "样式是格式的集合。"
+    ],
+    "trap": "字号中\"三号\"比\"五号\"大；段落标记含回车符；格式刷双击可连续使用。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Word 中，文本不能同时设置加粗和倾斜样式。",
+      "answer": "错误",
+      "explain": "错误。可以同时设置加粗和倾斜。",
+      "kind": "判断"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机软硬件基础 / BIOS": {
+    "subject": "cs",
+    "topic": "计算机软硬件基础 / BIOS",
+    "def": "BIOS 是基本输入输出系统，固化在主板 ROM 中。",
+    "points": [
+      "BIOS 作用：开机自检(POST)、硬件初始化、引导操作系统",
+      "CMOS 存放硬件配置参数，由电池供电",
+      "进入 BIOS 设置通常按 Del/F2。"
+    ],
+    "trap": "BIOS 在 ROM 中，断电不丢失；CMOS 参数断电靠电池保持；BIOS 不是操作系统。",
+    "kind": "cs",
+    "example": {
+      "stem": "BIOS 作为操作系统的一部分，主要用于驱动和管理计算机硬件设备。",
+      "answer": "错误",
+      "explain": "错误。BIOS 是固化在主板上的一组程序，不属于操作系统。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|计算机硬件 / CPU": {
+    "subject": "cs",
+    "topic": "计算机硬件 / CPU",
+    "def": "CPU 是中央处理器，计算机的核心部件。",
+    "points": [
+      "CPU 由运算器和控制器组成",
+      "主要性能指标：主频、字长、核心数、缓存",
+      "字长指一次能处理的二进制位数",
+      "主频越高运算越快（同架构下）。"
+    ],
+    "trap": "CPU 是核心部件但不是全部；字长是重要指标（如64位）；运算器做运算，控制器发指令。",
+    "kind": "cs",
+    "example": {
+      "stem": "主频是 CPU 的工作频率，主频越高表示 CPU 的速度越快。",
+      "answer": "正确",
+      "explain": "正确。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|操作系统 / 回收站": {
+    "subject": "cs",
+    "topic": "操作系统 / 回收站",
+    "def": "回收站是 Windows 暂存删除文件的区域。",
+    "points": [
+      "普通删除（Delete）的文件移入回收站，可还原",
+      "Shift+Delete 永久删除不进回收站",
+      "清空回收站后不可恢复",
+      "U盘删除的文件一般不进回收站。"
+    ],
+    "trap": "回收站在硬盘上；从回收站还原文件回到原位置；U盘删除通常直接永久删除。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 中，回收站的大小是固定的，不能改变。",
+      "answer": "错误",
+      "explain": "错误。回收站大小可以调整。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|算法与程序设计 / 指令执行": {
+    "subject": "cs",
+    "topic": "算法与程序设计 / 指令执行",
+    "def": "计算机执行指令的过程遵循存储程序原理。",
+    "points": [
+      "指令由操作码和地址码组成",
+      "执行过程：取指令→分析指令→执行指令→重复",
+      "程序和数据都存放在存储器中（冯·诺依曼原理）。"
+    ],
+    "trap": "操作码指明做什么，地址码指明操作数地址；指令周期=取指+执行。",
+    "kind": "cs",
+    "example": {
+      "stem": "在任意程序中，在一次运行中所有指令都必须执行一次。",
+      "answer": "错误",
+      "explain": "错误。循环中指令可能多次执行，分支不满足时部分指令不执行。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|计算机新技术 / 人工智能": {
+    "subject": "cs",
+    "topic": "计算机新技术 / 人工智能",
+    "def": "人工智能是模拟、延伸人类智能的技术。",
+    "points": [
+      "AI 三大要素：数据、算法、算力",
+      "主要领域：机器学习、深度学习、自然语言处理、计算机视觉",
+      "图灵测试判断机器是否具有智能。"
+    ],
+    "trap": "图灵测试由阿兰·图灵提出；机器学习是 AI 的子集，深度学习是机器学习的子集。",
+    "kind": "cs",
+    "example": {
+      "stem": "DeepSeek R1 是我国自主研发的生成式人工智能大模型之一。",
+      "answer": "正确",
+      "explain": "正确。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|算法与程序设计 / 冒泡排序": {
+    "subject": "cs",
+    "topic": "算法与程序设计 / 冒泡排序",
+    "def": "冒泡排序是重复交换相邻逆序元素的排序算法。",
+    "points": [
+      "比较相邻元素，逆序则交换，每轮把最大值\"冒泡\"到末尾",
+      "n 个元素需 n-1 轮",
+      "时间复杂度 O(n²)",
+      "稳定排序。"
+    ],
+    "trap": "冒泡排序是稳定的；最好情况（已有序）可优化为 O(n)；每轮确定一个最大值位置。",
+    "kind": "cs",
+    "example": {
+      "stem": "冒泡排序中，如果一次排序时数字没有交换，说明数字已经有序，可以停止排序。",
+      "answer": "正确",
+      "explain": "正确。",
+      "kind": "判断"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲核心模块"
+  },
+  "cs|办公自动化 / Word 页码": {
+    "subject": "cs",
+    "topic": "办公自动化 / Word 页码",
+    "def": "Word 页码用于标注页面编号。",
+    "points": [
+      "插入→页码，可选位置（页眉/页脚）和对齐方式",
+      "设置页码格式（数字/罗马数字）和起始页码",
+      "奇偶页不同、首页不同需分别设置。"
+    ],
+    "trap": "页码一般在页眉页脚；分节后可设置不同起始页码；双击页眉页脚进入编辑。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Word 中，页码可以设置在页脚中插入，不可以在页眉中插入。",
+      "answer": "错误",
+      "explain": "错误。页码既可在页脚也可在页眉插入。",
+      "kind": "判断"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|网络与信息安全 / 网络伦理": {
+    "subject": "cs",
+    "topic": "网络与信息安全 / 网络伦理",
+    "def": "网络伦理是网络使用中的道德规范和行为准则。",
+    "points": [
+      "尊重知识产权、不传播虚假信息、保护个人隐私、不侵犯他人权益、遵守法律法规",
+      "抵制网络谣言和不良信息。"
+    ],
+    "trap": "网络不是法外之地；转载需注明出处；注意个人信息保护。",
+    "kind": "cs",
+    "example": {
+      "stem": "可以从技术、法律、伦理等层次构建网络伦理，规范网络空间行为。",
+      "answer": "正确",
+      "explain": "正确。",
+      "kind": "判断"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机新技术 / 物联网": {
+    "subject": "cs",
+    "topic": "计算机新技术 / 物联网",
+    "def": "物联网是通过互联网连接物理设备的网络。",
+    "points": [
+      "IoT 通过传感器和通信技术实现物物相连",
+      "三层架构：感知层、网络层、应用层",
+      "应用：智能家居、智慧城市、工业物联网。"
+    ],
+    "trap": "物联网核心是\"物物相连\"；感知层用传感器采集数据；RFID 是物联网关键技术。",
+    "kind": "cs",
+    "example": {
+      "stem": "物联网的 3 层体系结构为 ____、网络层、应用层。",
+      "answer": "感知层",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|多媒体 / 声音数字化": {
+    "subject": "cs",
+    "topic": "多媒体 / 声音数字化",
+    "def": "声音数字化是将模拟声音转为数字信号的过程。",
+    "points": [
+      "采样→量化→编码",
+      "采样频率越高音质越好（常见44.1kHz）",
+      "量化位数越高音质越好（常见16位）",
+      "数据量=采样频率×量化位数×声道数×时间/8。"
+    ],
+    "trap": "采样是时间离散化，量化是幅度离散化；CD音质44.1kHz/16位/双声道；计算数据量注意除以8（位转字节）。",
+    "kind": "cs",
+    "example": {
+      "stem": "将自然界的声音转换为计算机能处理的数据，需要经过采样、量化和 ____ 三个步骤。",
+      "answer": "编码",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|办公自动化 / Excel 运算符": {
+    "subject": "cs",
+    "topic": "办公自动化 / Excel 运算符",
+    "def": "Excel 运算符包括算术、比较、文本和引用运算符。",
+    "points": [
+      "算术：+ - * / ^ %",
+      "比较：= <> > < >= <=，结果为 TRUE/FALSE",
+      "文本连接：&",
+      "引用：区域(:)、联合(,)、交叉(空格)",
+      "优先级：引用>算术>文本>比较。"
+    ],
+    "trap": "比较运算结果是逻辑值；^ 是指数运算；& 连接文本；冒号 : 表示区域。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Excel 单元格中输入公式「=123&345」，计算结果为 ____。",
+      "answer": "123345",
+      "explain": "& 为文本连接符",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机基础 / 数制转换": {
+    "subject": "cs",
+    "topic": "计算机基础 / 数制转换",
+    "def": "数制转换指二进制、八进制、十进制、十六进制间的转换。",
+    "points": [
+      "二进制 B、八进制 O、十进制 D、十六进制 H",
+      "R 进制转十进制按权展开求和",
+      "十进制转 R 进制用除基取余法（整数）和乘基取整法（小数）",
+      "二↔八（3位一组）、二↔十六（4位一组）。"
+    ],
+    "trap": "二进制只有0和1；十六进制用0-9和A-F（A=10,F=15）；分组转换从小数点向两边分组。",
+    "kind": "cs",
+    "example": {
+      "stem": "无符号数 (10100100)₂ 减去 (10011001)₂ 的结果转成十进制为 ____。",
+      "answer": "11",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机硬件 / 总线": {
+    "subject": "cs",
+    "topic": "计算机硬件 / 总线",
+    "def": "总线是计算机各部件间传送信息的公共通道。",
+    "points": [
+      "按功能分数据总线、地址总线、控制总线",
+      "数据总线双向，地址总线单向",
+      "总线宽度决定一次传送的数据量",
+      "系统总线连接 CPU、内存、I/O。"
+    ],
+    "trap": "数据总线宽度=字长；地址总线宽度决定寻址空间；控制总线传送控制信号。",
+    "kind": "cs",
+    "example": {
+      "stem": "微型计算机系统的总线从功能上划分为 ____、地址总线、控制总线。",
+      "answer": "数据总线",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道"
+  },
+  "cs|办公自动化 / PPT 讲义": {
+    "subject": "cs",
+    "topic": "办公自动化 / PPT 讲义",
+    "def": "PPT 讲义模式可将幻灯片打印为讲义。",
+    "points": [
+      "讲义可每页打印1/2/3/4/6/9张幻灯片",
+      "讲义母版设置讲义版式",
+      "可用于发给听众做笔记。"
+    ],
+    "trap": "讲义视图用于打印；讲义母版区别于幻灯片母版和备注母版。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 PowerPoint 中，打印成讲义最多可以设置 ____ 张幻灯片。",
+      "answer": "9",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|网络与信息安全 / IP 地址": {
+    "subject": "cs",
+    "topic": "网络与信息安全 / IP 地址",
+    "def": "IP 地址是网络中设备的逻辑地址。",
+    "points": [
+      "IPv4 是32位，点分十进制表示（如192.168.1.1），分4段每段0-255",
+      "IPv6 是128位",
+      "IP 地址分网络号和主机号",
+      "A/B/C 类地址按首字节范围区分。"
+    ],
+    "trap": "IPv4 由32位二进制组成；每段最大255；127.0.0.1 是本机回环地址。",
+    "kind": "cs",
+    "example": {
+      "stem": "一个网络的 IP 地址是 192.168.3.18，默认子网掩码是 255.255.255.0，它的网络号是 ____。",
+      "answer": "192.168.3.0",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|办公自动化 / PPT 视图": {
+    "subject": "cs",
+    "topic": "办公自动化 / PPT 视图",
+    "def": "PPT 提供多种视图用于不同编辑需求。",
+    "points": [
+      "普通视图（编辑幻灯片）、幻灯片浏览视图（整体浏览排序）、备注页视图（添加备注）、阅读视图（放映预览）、幻灯片母版视图（统一修改版式）。"
+    ],
+    "trap": "浏览视图便于排序和删除；母版视图修改影响所有幻灯片；备注只是在放映时不显示。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 PowerPoint 的 ____ 视图下，可以同时显示幻灯片、备注、大纲。",
+      "answer": "普通",
+      "explain": "2025 真题填空",
+      "kind": "填空"
+    },
+    "priority": "core",
+    "realCount": 1,
+    "relCount": 1,
+    "prioReason": "真题1道·考纲重点模块"
+  },
+  "cs|计算机基础": {
+    "subject": "cs",
+    "topic": "计算机基础",
+    "def": "计算机基础知识综合，包括计算机概念、组成、数制等。",
+    "points": [
+      "计算机由硬件和软件组成",
+      "冯·诺依曼体系五大部件：运算器、控制器、存储器、输入设备、输出设备",
+      "数制转换",
+      "计算机分类与特点。"
+    ],
+    "trap": "硬件是物质基础，软件是灵魂；运算器和控制器合称 CPU；存储程序原理是冯·诺依曼核心思想。",
+    "kind": "cs",
+    "example": {
+      "stem": "已知字符 'A' 的 ASCII 码值为 65，则字符 'D' 的 ASCII 码值为（　）",
+      "answer": "68",
+      "explain": "'A' 为 65，'B' 66、'C' 67、'D' 68。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 14,
+    "prioReason": "考纲核心模块·关联14题"
+  },
+  "cs|计算机软硬件基础": {
+    "subject": "cs",
+    "topic": "计算机软硬件基础",
+    "def": "计算机硬件与软件的组成及工作原理。",
+    "points": [
+      "硬件系统五大部件",
+      "软件系统分系统软件（操作系统等）和应用软件",
+      "程序是指令的集合",
+      "计算机工作原理",
+      "软硬件协同工作。"
+    ],
+    "trap": "系统软件管理计算机资源，应用软件解决具体问题；软硬件界限并非绝对（固件）。",
+    "kind": "cs",
+    "example": {
+      "stem": "微型计算机的五大部件是运算器、控制器、存储器、输入设备和（　）",
+      "answer": "输出设备",
+      "explain": "五大部件为运算器、控制器、存储器、输入设备、输出设备。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 28,
+    "prioReason": "考纲核心模块·关联28题"
+  },
+  "cs|办公自动化": {
+    "subject": "cs",
+    "topic": "办公自动化",
+    "def": "办公自动化软件的使用，主要包括 Word、Excel、PPT。",
+    "points": [
+      "Word 文档编辑排版",
+      "Excel 电子表格处理（公式函数、图表、排序筛选）",
+      "PowerPoint 演示文稿制作",
+      "三者文件扩展名 .docx/.xlsx/.pptx。"
+    ],
+    "trap": "Excel 单元格地址分相对/绝对/混合引用；Word 样式统一格式；PPT 母版统一版式。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Excel 中，若要统计 A1:A10 中大于 60 的数值个数，应使用（　）",
+      "answer": "=COUNTIF(A1:A10,\">60\")",
+      "explain": "COUNTIF 按条件计数。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 44,
+    "prioReason": "考纲重点模块·关联44题"
+  },
+  "cs|网络与信息安全": {
+    "subject": "cs",
+    "topic": "网络与信息安全",
+    "def": "计算机网络基础与信息安全知识。",
+    "points": [
+      "计算机网络功能：数据通信、资源共享、分布式处理",
+      "网络按覆盖范围分 LAN/MAN/WAN",
+      "OSI 七层模型",
+      "IP 地址与域名",
+      "信息安全三要素（保密性、完整性、可用性）。"
+    ],
+    "trap": "LAN 局域网范围小，WAN 广域网范围大；防火墙用于网络安全防护；病毒是程序不是生物。",
+    "kind": "cs",
+    "example": {
+      "stem": "TCP/IP 协议中，IP 地址的版本 IPv4 地址长度是（　）",
+      "answer": "32 位",
+      "explain": "IPv4 为 32 位（4 字节），IPv6 为 128 位。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 27,
+    "prioReason": "考纲重点模块·关联27题"
+  },
+  "cs|算法与程序设计": {
+    "subject": "cs",
+    "topic": "算法与程序设计",
+    "def": "算法的基本概念与程序设计基础。",
+    "points": [
+      "算法特征：有穷性、确定性、可行性、输入、输出",
+      "算法描述：自然语言、流程图、伪代码",
+      "常见算法：排序、查找",
+      "程序基本结构：顺序、分支、循环。"
+    ],
+    "trap": "算法必须有穷且确定；流程图菱形表示判断；任何复杂程序都由三种基本结构组成。",
+    "kind": "cs",
+    "example": {
+      "stem": "若某算法的时间复杂度为 $O\\left( n^{2} \\right)$，当问题规模 $n$ 扩大为原来的 2 倍时，运算时间大约变为原来的（　）",
+      "answer": "4 倍",
+      "explain": "$n$ 变为 $2n$ 时，$n^{2}$ 变为 $4n^{2}$。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 11,
+    "prioReason": "考纲核心模块·关联11题"
+  },
+  "cs|数据库": {
+    "subject": "cs",
+    "topic": "数据库",
+    "def": "数据库基础知识。",
+    "points": [
+      "数据模型（关系/层次/网状）",
+      "关系模型用二维表",
+      "SQL 查询语言",
+      "DBMS 管理数据库",
+      "E-R 图表示实体联系。"
+    ],
+    "trap": "关系模型是目前最主流的数据模型；SQL 是数据库查询语言；数据库减少数据冗余。",
+    "kind": "cs",
+    "example": {
+      "stem": "关系表中能唯一标识一条记录的字段（或字段组合）称为（　）",
+      "answer": "主键",
+      "explain": "主键唯一标识记录，不允许重复。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 5,
+    "prioReason": "考纲重点模块·关联5题"
+  },
+  "cs|计算机基础知识": {
+    "subject": "cs",
+    "topic": "计算机基础知识",
+    "def": "计算机基础概念与常识。",
+    "points": [
+      "计算机发展四代（电子管/晶体管/集成电路/大规模集成电路）",
+      "计算机特点（速度快、精度高、存储容量大、自动化）",
+      "计算机应用领域",
+      "数制与编码。"
+    ],
+    "trap": "第一台计算机 ENIAC 诞生于1946年；计算机发展按电子元件划分代际；ASCII 码用7位表示字符。",
+    "kind": "cs",
+    "example": {
+      "stem": "二进制数 $(1101)_{2}$ 对应的十进制数是（　）",
+      "answer": "13",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 18,
+    "prioReason": "考纲核心模块·关联18题"
+  },
+  "cs|数据库技术": {
+    "subject": "cs",
+    "topic": "数据库技术",
+    "def": "数据库技术与应用的综合。",
+    "points": [
+      "数据库系统组成",
+      "关系代数运算（选择、投影、连接）",
+      "SQL 语句",
+      "数据完整性（实体、参照、用户定义）",
+      "数据库设计 basics。"
+    ],
+    "trap": "选择是对行过滤，投影是对列筛选；主键唯一标识记录；外键保证参照完整性。",
+    "kind": "cs",
+    "example": {
+      "stem": "SQL 中用于删除数据表中记录的语句是（　）",
+      "answer": "DELETE",
+      "explain": "DELETE FROM 表名 WHERE 条件，删除记录。",
+      "kind": "例题"
+    },
+    "priority": "core",
+    "realCount": 0,
+    "relCount": 10,
+    "prioReason": "考纲重点模块·关联10题"
+  },
+  "cs|计算机基础/存储单位": {
+    "subject": "cs",
+    "topic": "计算机基础/存储单位",
+    "def": "计算机存储容量的单位换算。",
+    "points": [
+      "最小单位 bit（位，b）",
+      "基本单位 Byte（字节，B），1B=8bit",
+      "1KB=1024B，1MB=1024KB，1GB=1024MB，1TB=1024GB。"
+    ],
+    "trap": "1字节=8位；存储单位换算是1024（不是1000）；区分 bit 和 Byte（小写 b 与大写 B）。",
+    "kind": "cs",
+    "example": {
+      "stem": "计算机中存储容量的基本单位是( )",
+      "answer": "字节(Byte)",
+      "explain": "字节(Byte)是计算机存储容量的基本单位，1Byte=8bit(位，最小的存储单位);KB、MB均为更大的存储单位，是字节的倍数单位，应填字节(Byte)。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "cs|操作系统/快捷键": {
+    "subject": "cs",
+    "topic": "操作系统/快捷键",
+    "def": "操作系统中常用键盘快捷键。",
+    "points": [
+      "Ctrl+C/V/X 复制粘贴剪切",
+      "Ctrl+Z 撤销",
+      "Ctrl+Y 恢复",
+      "Ctrl+A 全选",
+      "Ctrl+S 保存",
+      "Alt+Tab 切换窗口",
+      "Win+E 打开资源管理器。"
+    ],
+    "trap": "撤销是 Ctrl+Z，恢复是 Ctrl+Y；Alt+F4 关闭当前窗口；Ctrl+Shift+Esc 任务管理器。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 系统中，要将当前窗口的内容复制到剪贴板，应使用的快捷键是( )",
+      "answer": "Alt+PrintScreen",
+      "explain": "PrintScreen 快捷键复制整个屏幕内容;Alt+PrintScreen 快捷键仅复制当前活动窗口内容;Ctrl+PrintScreen、Shift+PrintScreen 无此常规操作功能，应填 Alt+PrintScreen。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "cs|办公自动化/Word替换": {
+    "subject": "cs",
+    "topic": "办公自动化/Word替换",
+    "def": "Word 的查找与替换功能。",
+    "points": [
+      "开始→替换（Ctrl+H）",
+      "可替换文字、格式、特殊字符",
+      "\"全部替换\"一次性替换所有匹配",
+      "查找和替换支持通配符。"
+    ],
+    "trap": "Ctrl+F 查找，Ctrl+H 替换；替换格式需在\"更多\"中设置；全部替换前可先预览。",
+    "kind": "cs",
+    "example": {
+      "stem": "Word 2016 中，要将文档中所有的“电脑”替换为“计算机”，最快速的操作是使用( )",
+      "answer": "替换功能",
+      "explain": "Word 的替换功能可实现文档中指定文字的批量、快速替换，通过“开始”选项卡的“替换”按钮(快捷键 Ctrl+H)操作;查找功能仅能定位文字，手动修改效率低，格式刷用于复制格式，均不适用。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 2,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|网络与信息安全/网络基础": {
+    "subject": "cs",
+    "topic": "网络与信息安全/网络基础",
+    "def": "计算机网络的基本概念与功能。",
+    "points": [
+      "计算机网络是自治计算机系统的集合",
+      "功能：数据通信、资源共享、分布式处理",
+      "按拓扑结构分星型、总线型、环型、网状",
+      "按覆盖范围分 LAN/MAN/WAN。"
+    ],
+    "trap": "星型拓扑以中央节点为中心；总线型所有节点共享一条传输线；网络最主要功能是数据通信和资源共享。",
+    "kind": "cs",
+    "example": {
+      "stem": "计算机网络中，LAN 指的是( )",
+      "answer": "局域网",
+      "explain": "LAN 是 Local Area Network 的缩写，代表局域网，覆盖范围小(如校园、办公室);广域网是 WAN，城域网是 MAN，互联网是 Internet，应填局域网。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|办公自动化/Excel函数": {
+    "subject": "cs",
+    "topic": "办公自动化/Excel函数",
+    "def": "Excel 内置函数的使用。",
+    "points": [
+      "SUM 求和、AVERAGE 平均、MAX/MIN 最大最小、COUNT 计数、IF 条件判断、VLOOKUP 查找、ROUND 四舍五入",
+      "函数以 = 开头，参数用逗号/冒号分隔。"
+    ],
+    "trap": "公式必须以 = 开头；相对引用复制时地址变化；IF 函数嵌套注意括号配对。",
+    "kind": "cs",
+    "example": {
+      "stem": "Excel 中，单元格 A1 内容为 10，A2 内容为 20，在 A3 中输入公式 = A1+A2，按回车键后 A3 的结果是( )",
+      "answer": "30",
+      "explain": "Excel 中公式以 = 开头，会自动计算表达式结果，A1+A2 即 10+20=30，按回车后单元格显示计算结果，而非公式本身，应填 30。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 2,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|计算机硬件/组成": {
+    "subject": "cs",
+    "topic": "计算机硬件/组成",
+    "def": "计算机硬件系统的组成。",
+    "points": [
+      "冯·诺依曼五大部件：运算器、控制器、存储器、输入设备、输出设备",
+      "CPU=运算器+控制器",
+      "内存与外存",
+      "主板连接各部件。"
+    ],
+    "trap": "运算器与控制器合称 CPU；存储器分内存储器与外存储器；输入/输出设备区分方向。",
+    "kind": "cs",
+    "example": {
+      "stem": "下列不属于计算机硬件系统五大基本组成部分的是( )",
+      "answer": "办公软件",
+      "explain": "计算机硬件系统五大基本组成部分为运算器、控制器、存储器、输入设备、输出设备;办公软件属于计算机软件系统中的应用软件，并非硬件范畴。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "基础考点"
+  },
+  "cs|操作系统/窗口操作": {
+    "subject": "cs",
+    "topic": "操作系统/窗口操作",
+    "def": "Windows 窗口的基本操作。",
+    "points": [
+      "窗口可移动、缩放、最大化、最小化、关闭",
+      "拖动标题栏移动窗口",
+      "双击标题栏最大化/还原",
+      "Alt+F4 关闭窗口",
+      "窗口间切换 Alt+Tab。"
+    ],
+    "trap": "最小化是放到任务栏并非关闭；最大化/还原通过标题栏按钮或双击；关闭窗口 Alt+F4。",
+    "kind": "cs",
+    "example": {
+      "stem": "在 Windows 系统中，要一次性关闭多个相邻的窗口，最便捷的操作是( )",
+      "answer": "按住 Shift 键单击首尾窗口图标后关闭",
+      "explain": "Windows 系统中，按住 Shift 键单击任务栏中相邻窗口的首尾图标，可一次性选中多个相邻窗口，右键选择关闭即可批量操作，是最便捷的方式；逐一点选关闭的操作繁琐，Shift 仅适用于选中相邻窗口，其他方式没有批量关闭功能。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲核心模块"
+  },
+  "cs|网络与信息安全/网络分类": {
+    "subject": "cs",
+    "topic": "网络与信息安全/网络分类",
+    "def": "计算机网络按不同标准的分类。",
+    "points": [
+      "按覆盖范围：局域网(LAN)、城域网(MAN)、广域网(WAN)、个人局域网(PAN)",
+      "按拓扑结构：星型、总线型、环型、网状",
+      "按传输介质：有线网、无线网。"
+    ],
+    "trap": "LAN 范围最小（如一栋楼），WAN 最大（如互联网）；互联网是广域网的典型代表。",
+    "kind": "cs",
+    "example": {
+      "stem": "下列不属于计算机网络按“地理覆盖范围”分类的是( )",
+      "answer": "星型网(Star Network)",
+      "explain": "A(局域网)、B(城域网)、C(广域网)均是按“地理覆盖范围”分类(分别对应局部区域、城市范围、大范围区域);D 选项“星型网”是按“网络拓扑结构”分类(还有总线型、环型等)，不属于“地理覆盖范围”分类，应填星型网(Star Network)。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|办公自动化/PPT基础": {
+    "subject": "cs",
+    "topic": "办公自动化/PPT基础",
+    "def": "PowerPoint 演示文稿基础操作。",
+    "points": [
+      "幻灯片的新建、删除、复制、移动",
+      "版式与主题",
+      "文本与图片插入",
+      "文件扩展名 .pptx",
+      "放映幻灯片 F5（从头）/Shift+F5（从当前）。"
+    ],
+    "trap": "F5 从头放映，Shift+F5 从当前页放映；母版统一设置版式；幻灯片可设置切换和动画效果。",
+    "kind": "cs",
+    "example": {
+      "stem": "演示文稿的第一张幻灯片通常叫为_________，其中包括标题占位符和副标题占位符。",
+      "answer": "标题幻灯片",
+      "explain": "演示文稿的第一张幻灯片通常叫标题幻灯片，其中包括标题占位符和副标题占位符。",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|办公自动化/PPT操作": {
+    "subject": "cs",
+    "topic": "办公自动化/PPT操作",
+    "def": "PowerPoint 的高级操作与效果。",
+    "points": [
+      "幻灯片切换效果",
+      "对象动画（进入、强调、退出、动作路径）",
+      "超链接与动作按钮",
+      "幻灯片母版",
+      "排练计时",
+      "打包演示文稿。"
+    ],
+    "trap": "切换是幻灯片之间，动画是幻灯片内对象；动画可设置触发方式（单击/之前/之后）；母版修改影响全局。",
+    "kind": "cs",
+    "example": {
+      "stem": "在PowerPoint 2010中，下列有关模板的说法错误的是( ).",
+      "answer": "用户不可以自定义模板",
+      "explain": "模板是以特殊格式保存的演示文稿，扩展名为 .potx；用户完全可以自定义模板（如将现有演示文稿另存为 .potx），还能套用整体风格统一外观。本题要选“说法错误”的一项，故答案是「用户不可以自定义模板」这一错误表述。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 2,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|多媒体/数据压缩": {
+    "subject": "cs",
+    "topic": "多媒体/数据压缩",
+    "def": "多媒体数据压缩技术。",
+    "points": [
+      "有损压缩（JPEG、MP3）不可逆，压缩比大",
+      "无损压缩（ZIP、PNG）可逆",
+      "压缩目的是减少存储空间和传输带宽",
+      "视频压缩标准 MPEG、H.264。"
+    ],
+    "trap": "有损压缩丢失信息不可恢复；无损压缩可完全还原；压缩比越大通常质量越低（有损）。",
+    "kind": "cs",
+    "example": {
+      "stem": "压缩是信息技术常用的技术，它可分为无损压缩和有损压缩。在以下4个文件中，使用了无损压缩技术的是( ).",
+      "answer": "教学素材.rar",
+      "explain": "无损压缩是指将相同的或相似的数据或数据特征归类，使用较少的数据量描述原始数据，比如: RAR、TIFF、GIF、RAW、PCX、TGA、PNG、BMP;有损压缩是指利用人眼的视觉特性有针对性地简化不重要的数据，比如:JPG、WMF、MP3、MPEG等，应填「教学素材.rar」（无损压缩）。",
+      "kind": "例题"
+    },
+    "priority": "normal",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "基础考点"
+  },
+  "cs|网络与信息安全/网络拓扑": {
+    "subject": "cs",
+    "topic": "网络与信息安全/网络拓扑",
+    "def": "网络拓扑结构是网络节点的连接布局。",
+    "points": [
+      "星型：中央节点连接所有节点，故障易隔离",
+      "总线型：共享一条传输线",
+      "环型：节点首尾相连成环",
+      "网状：节点多路径连接，可靠性高。"
+    ],
+    "trap": "星型最常用（如以太网）；网状可靠性最高但成本高；总线型一个节点故障可能影响全网。",
+    "kind": "cs",
+    "example": {
+      "stem": "网络若根据( )分类，可分为总线网、环型网、星型网、树型网和网状网。",
+      "answer": "网络拓扑结构",
+      "explain": "把网络中的计算机等设备抽象为点，把网络中的通信媒体抽象为线形成由点和线组成的几何图形，即网络的拓扑结构。计算机网络按拓扑结构可以分成总线型拓扑、环型拓扑、星型拓扑、树状拓扑和网状拓扑等，应填网络拓扑结构。",
+      "kind": "例题"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  },
+  "cs|网络与信息安全/网络设备": {
+    "subject": "cs",
+    "topic": "网络与信息安全/网络设备",
+    "def": "网络连接与通信设备。",
+    "points": [
+      "网卡、交换机、路由器、调制解调器、中继器、网桥、网关",
+      "交换机隔离冲突域，路由器隔离广播域",
+      "网关连接不同协议的网络。"
+    ],
+    "trap": "路由器工作在网络层，交换机在数据链路层；中继器在物理层放大信号；网关是协议转换器。",
+    "kind": "cs",
+    "example": {
+      "stem": "以下有关路由器的说法正确的是( ).",
+      "answer": "路由器在路由选择、拥塞控制、容错性及网络管理等方面都有重要应用；路由器和交换机的工作层次不同",
+      "explain": "路由器工作在网络层，主要有路由选择、拥塞控制、网络管理等功能，交换机工作在数据链路层，应填：路由器在路由选择、拥塞控制、容错性及网络管理等方面都有重要应用；路由器和交换机的工作层次不同。",
+      "kind": "填空"
+    },
+    "priority": "high",
+    "realCount": 0,
+    "relCount": 1,
+    "prioReason": "考纲重点模块"
+  }
+}

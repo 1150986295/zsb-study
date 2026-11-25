@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>专升本每日修炼</title>
+<link rel="stylesheet" href="vendor/katex/katex.min.css?v=202611251700">
+<link rel="stylesheet" href="css/style.css?v=202611251700">
+</head>
+<body>
+<div id="app">
+  <!-- ============ 今日 ============ -->
+  <section class="screen" id="screen-today" data-screen="today">
+    <header class="topbar">
+      <div class="brand">每日修炼</div>
+      <div class="countdown" id="countdown" data-enter>距考试 -- 天</div>
+    </header>
+    <div class="scroll">
+      <div class="hero" data-enter>
+        <div class="hero-row">
+          <div class="hero-date" id="heroDate">--</div>
+          <span class="due-badge" id="dueBadge" hidden>今日到期复习 0 条</span>
+        </div>
+        <div class="hero-title">今日修炼</div>
+        <div class="hero-total"><span id="heroTotal">0 / 785</span><span class="ht-label">今日已答 / 全库题数</span><span class="ht-seg" id="heroSegDone">约 0 分钟</span></div>
+        <div class="intensity-bar" id="intensityBar" data-enter>
+          <span class="int-pill" id="intPill">标准</span>
+          <span class="int-reason" id="intReason">按标准强度安排</span>
+          <span class="int-info" title="根据你的正确率自动调节，每周日放松">ⓘ</span>
+        </div>
+        <div class="hero-sub" id="heroProgress">今天也要加油 ✦</div>
+        <div class="hero-foot">
+          <span class="streak-pill">连续打卡 <b id="heroTodayStreak">0</b> 天</span>
+          <button class="checkin-btn" id="checkinBtn">今日打卡</button>
+        </div>
+      </div>
+
+      <!-- R3.7 今日四段任务：进度可视化总览，点整卡进入对应练习并筛该段题目 -->
+      <div class="block" data-enter>
+        <div class="block-hd"><span class="bd-name">今日四段任务</span><span class="bd-tag" id="segDoneTag">0 / 4 段完成</span></div>
+        <div class="seg-list" id="taskCards"></div>
+      </div>
+
+      <div class="section-divider" data-enter></div>
+
+      <!-- R3.7 复习提醒：艾宾浩斯到期 + 今日新考点，收进浅色次级卡 -->
+      <div class="remind-card" data-enter>
+        <div class="remind-hd">复习提醒 <span class="remind-date" id="heroDate2"></span></div>
+        <button class="remind-row" data-act="review-remind">
+          <span class="sr-ic">↻</span>
+          <span>艾宾浩斯到期复习 <b id="remindDue">0</b> 项</span>
+          <span class="remind-go">展开 ›</span>
+        </button>
+        <div class="remind-sub" id="remindTopics">今日新考点 0 个</div>
+      </div>
+
+      <div class="block" data-enter>
+        <div class="block-hd"><span class="bd-num">00</span><span class="bd-name">每日背诵</span><span class="bd-tag" id="studyTag">30词+4考点</span></div>
+        <div class="study-box" id="studyBox"></div>
+      </div>
+
+      <div class="block" data-enter>
+        <div class="block-hd"><span class="bd-num">01</span><span class="bd-name">晨读知识点</span><span class="bd-tag" id="morningTag">×4</span></div>
+        <div class="kp-list" id="morningPoints"></div>
+      </div>
+
+      <div class="block" data-enter>
+        <div class="block-hd"><span class="bd-num">02</span><span class="bd-name">配套练习</span><span class="bd-tag">×12</span></div>
+        <div class="q-list" id="supportQs"></div>
+      </div>
+
+      <div class="block" data-enter>
+        <div class="block-hd"><span class="bd-num">03</span><span class="bd-name">混合套题</span><span class="bd-tag">×22</span></div>
+        <div class="q-list" id="mixQs"></div>
+      </div>
+
+      <div class="block" data-enter>
+        <div class="block-hd"><span class="bd-num">04</span><span class="bd-name">错题回顾</span><span class="bd-tag" id="reviewTag">≤4</span></div>
+        <div class="q-list" id="reviewQs"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 练习 ============ -->
+  <section class="screen" id="screen-practice" data-screen="practice">
+    <header class="topbar"><div class="brand">练习</div><span class="streak-mini" id="practiceDone">今日 0 题</span></header>
+    <div class="scroll">
+      <div class="page-title" data-enter>按科目刷题</div>
+      <div class="sub-tabs" data-enter id="practiceSubs">
+        <button class="subtab active" data-sub="all">全部</button>
+        <button class="subtab" data-sub="english">英语</button>
+        <button class="subtab" data-sub="math">数学</button>
+        <button class="subtab" data-sub="cs">计算机</button>
+      </div>
+      <div class="diff-tabs" data-enter id="diffTabs">
+        <span class="diff-label">难度</span>
+        <button class="diff-tab active" data-diff="all">全部</button>
+        <button class="diff-tab" data-diff="1">基础</button>
+        <button class="diff-tab" data-diff="2">进阶</button>
+        <button class="diff-tab" data-diff="3">挑战</button>
+      </div>
+      <div class="quiz-toolbar" data-enter>
+        <span class="stat-strip" id="bankTotal">题库加载中…</span>
+        <button class="mix-btn" id="shuffleBtn">换一批</button>
+      </div>
+      <div class="filter-chip" id="filterChip" hidden><span class="ft">考点：</span><span class="x" id="clearFilter" title="清除筛选">×</span></div>
+      <div class="q-list" id="practiceList" data-enter></div>
+    </div>
+  </section>
+
+  <!-- ============ 知识 ============ -->
+  <section class="screen" id="screen-knowledge" data-screen="knowledge">
+    <header class="topbar"><div class="brand">知识</div></header>
+    <div class="scroll">
+      <div class="page-title" data-enter>知识点卡片</div>
+      <div class="kp-sort-hint" data-enter>按<b>遗忘曲线</b>排列：没学过和该复习的排前面；点「记住」后会按周期沉到后面，到期再回来。</div>
+      <div class="prio-filter" data-enter>
+        <button class="prio-toggle" id="prioToggle" data-act="prio-toggle" aria-pressed="false">★ 只看重点考点 <span class="pt-count" id="prioCount"></span></button>
+        <span class="prio-legend"><b class="pc-core">★核心高频</b> · <b class="pc-high">☆常考</b> · 依据真题+四川考纲</span>
+      </div>
+      <div class="sub-tabs" data-enter id="knowSubs">
+        <button class="subtab active" data-sub="english">英语</button>
+        <button class="subtab" data-sub="math">数学</button>
+        <button class="subtab" data-sub="cs">计算机</button>
+      </div>
+      <div class="kp-cards" id="knowCards" data-enter></div>
+    </div>
+  </section>
+
+  <!-- ============ 计划 ============ -->
+  <section class="screen" id="screen-plan" data-screen="plan">
+    <header class="topbar">
+      <div class="brand">学习计划</div>
+      <span class="streak-mini" id="planCountdown">距考试 -- 天</span>
+    </header>
+    <div class="scroll">
+      <div class="page-title" data-enter>20周章节计划</div>
+      <div class="plan-intro" data-enter>785 题按科目、章节均衡铺满 20 周，每周三科都有，跟着周次走即可。</div>
+      <div class="week-nav" data-enter>
+        <button class="week-arrow" id="weekPrev" aria-label="上一周">‹</button>
+        <div class="week-center">
+          <div class="week-title">第 <b id="weekCur">1</b> / 20 周 <span class="week-cur-tag" id="weekCurTag">本周</span></div>
+          <div class="week-range" id="weekRange">--</div>
+        </div>
+        <button class="week-arrow" id="weekNext" aria-label="下一周">›</button>
+      </div>
+      <div class="week-progress" data-enter>
+        <div class="wp-hd"><span>本周进度</span><span id="weekProgText">0 / 0 题</span></div>
+        <div class="wp-track"><div class="wp-fill" id="weekProgFill"></div></div>
+      </div>
+      <div class="week-jump" data-enter id="weekJump"></div>
+      <div class="week-chapters" id="weekChapters" data-enter></div>
+    </div>
+  </section>
+
+  <!-- ============ 专注（番茄钟 R11） ============ -->
+  <section class="screen" id="screen-focus" data-screen="focus">
+    <header class="topbar">
+      <div class="brand">专注番茄</div>
+      <span class="streak-mini" id="focusCountdown">距考试 -- 天</span>
+    </header>
+    <div class="scroll">
+      <div class="focus-timer" id="focusTimer" data-enter>
+        <div class="ft-ring">
+          <svg viewBox="0 0 220 220" class="ft-svg">
+            <circle class="ft-track" cx="110" cy="110" r="98"></circle>
+            <circle class="ft-prog" id="ftProg" cx="110" cy="110" r="98"></circle>
+          </svg>
+          <div class="ft-center">
+            <div class="ft-time" id="ftTime"><span class="ft-mm" id="ftMm">45</span><span class="ft-colon" id="ftColon">:</span><span class="ft-ss" id="ftSs">00</span></div>
+            <div class="ft-mode" id="ftMode">准备开始</div>
+            <div class="ft-subject" id="ftSubject">第 1 个 · 数学</div>
+          </div>
+          <div class="ft-wave" id="ftWave"></div>
+          <div class="ft-done" id="ftDone">本轮完成</div>
+        </div>
+        <div class="ft-ctrl">
+          <button class="ft-btn primary" id="ftStart">开始专注</button>
+          <button class="ft-btn" id="ftPause" hidden>暂停</button>
+          <button class="ft-btn ghost" id="ftAbandon" hidden>放弃</button>
+          <button class="ft-btn ghost" id="ftSkip" hidden>跳过休息</button>
+        </div>
+        <div class="ft-tip" id="ftTip">45 分钟专注 + 10 分钟休息 · 每天 3 个番茄</div>
+      </div>
+
+      <div class="focus-today" data-enter>
+        <div class="ft-sec-title">今日番茄 <span class="ft-goal" id="ftGoal">0 / 3</span></div>
+        <div class="ft-slots" id="ftSlots"></div>
+      </div>
+
+      <div class="focus-stats" data-enter>
+        <div class="ft-sec-title">专注统计</div>
+        <div class="ft-stat-grid" id="ftStats"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 错题 ============ -->
+  <section class="screen" id="screen-wrong" data-screen="wrong">
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="back-btn" id="wrongBack" aria-label="返回我的">‹</button>
+        <div class="brand">错题本</div>
+      </div>
+      <button class="rebrush-btn" id="rebrushBtn" hidden>重刷模式</button>
+    </header>
+    <div class="scroll">
+      <div class="page-title" data-enter>错题回顾</div>
+      <div class="sub-tabs" data-enter id="wrongSubs">
+        <button class="subtab active" data-sub="all">全部</button>
+        <button class="subtab" data-sub="english">英语</button>
+        <button class="subtab" data-sub="math">数学</button>
+        <button class="subtab" data-sub="cs">计算机</button>
+      </div>
+      <div class="stat-strip" data-enter id="wrongStat"></div>
+      <div id="wrongWrap" data-enter></div>
+    </div>
+  </section>
+
+  <!-- ============ 我的 ============ -->
+  <section class="screen" id="screen-me" data-screen="me">
+    <header class="topbar"><div class="brand">我的</div></header>
+    <div class="scroll">
+      <div class="me-hero" data-enter>
+        <div class="me-avatar">修</div>
+        <div class="me-name">每日修炼者</div>
+        <div class="me-streak">连续打卡 <b id="meStreak">0</b> 天</div>
+      </div>
+      <div class="me-stats" data-enter>
+        <div class="me-stat"><div class="ms-num" id="meToday">0</div><div class="ms-label">今日练习</div></div>
+        <div class="me-stat"><div class="ms-num" id="meRate">0%</div><div class="ms-label">总正确率</div></div>
+        <div class="me-stat"><div class="ms-num" id="meWrong">0</div><div class="ms-label">累计错题</div></div>
+      </div>
+      <button class="wrong-entry" id="wrongEntry" data-enter>
+        <span class="we-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>
+        </span>
+        <span class="we-text">
+          <span class="we-title">错题本</span>
+          <span class="we-sub">回顾错题 · 重刷巩固</span>
+        </span>
+        <span class="we-right"><span class="we-count" id="wrongEntryCount">0 题待复习</span><span class="we-arrow">›</span></span>
+      </button>
+      <div class="chart-card" data-enter>
+        <div class="chart-title">近7日练习量</div>
+        <div class="chart-bars" id="chartBars"></div>
+      </div>
+      <div class="chart-card" data-enter>
+        <div class="chart-title">记忆曲线 · 近30日复习</div>
+        <div class="chart-bars memory" id="memoryBars"></div>
+        <div class="curve-tip" id="curveTip">做几道题后这里会记录你的复习节奏</div>
+      </div>
+      <div class="exam-card" data-enter>
+        <div class="exam-hd">考试日期设置 <span class="exam-placeholder" id="examPlaceholder">占位日期</span></div>
+        <div class="exam-desc">当前为占位值，公布确切考试日后请修改，倒计时会自动更新。</div>
+        <div class="exam-row">
+          <input type="date" id="examInput" class="exam-input" value="2027-04-17" />
+          <button class="exam-save" id="examSave">保存</button>
+        </div>
+        <div class="exam-msg" id="examMsg"></div>
+      </div>
+      <div class="backup-card" data-enter>
+        <div class="backup-hd">
+          <span class="backup-title">数据备份</span>
+          <span class="storage-badge" id="storageBadge">● 本机存储</span>
+        </div>
+        <div class="notice-warn backup-warn">
+          <span class="nt">提示</span>
+          <span>学习记录只保存在这台设备的浏览器里。清除缓存、更换设备、或使用无痕模式，都会导致数据丢失。建议定期导出备份。</span>
+        </div>
+        <div class="backup-msg" id="backupMsg"></div>
+        <button class="btn btn-primary export-btn" id="exportBtn">导出学习记录（JSON）</button>
+        <input type="file" id="importFile" accept=".json,application/json" hidden>
+        <button class="btn export-btn" id="importBtn" data-enter>导入备份文件（恢复）</button>
+        <div class="import-panel" id="importPanel" hidden>
+          <div class="ip-info" id="ipInfo"></div>
+          <div class="ip-btns">
+            <button class="btn btn-primary" id="ipMerge">合并导入</button>
+            <button class="btn" id="ipOver">覆盖导入</button>
+            <button class="btn" id="ipCancel">取消</button>
+          </div>
+        </div>
+      </div>
+      <button class="reset-btn" id="resetBtn" data-enter>清空学习数据</button>
+    </div>
+  </section>
+
+  <!-- ============ 底部 tab ============ -->
+  <nav class="tabbar" id="tabbar">
+    <button class="tab active" data-target="today" aria-label="今日">
+      <svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="16" rx="3"/><path d="M3 9.5h18M8 2.5v4M16 2.5v4"/><circle cx="12" cy="14.5" r="2.2"/><path d="M12 16.7v1.3"/></svg>
+      <span class="tab-tx">今日</span></button>
+    <button class="tab" data-target="practice" aria-label="练习">
+      <svg viewBox="0 0 24 24"><path d="M4 20l4.2-1 10.5-10.5a2.1 2.1 0 0 0-3-3L5.2 16 4 20z"/><path d="M14.5 6.5l3 3"/></svg>
+      <span class="tab-tx">练习</span></button>
+    <button class="tab" data-target="knowledge" aria-label="知识">
+      <svg viewBox="0 0 24 24"><path d="M4 5.5C7 4 10 4.5 12 6.5c2-2 5-2.5 8-1v13c-3-1.5-6-1-8 1-2-2-5-2.5-8-1v-13z"/><path d="M12 6.5v13"/></svg>
+      <span class="tab-tx">知识</span></button>
+    <button class="tab" data-target="plan" aria-label="计划">
+      <svg viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="16" rx="2.5"/><path d="M3.5 9.5h17M8 2.5v4M16 2.5v4"/><path d="M7.5 13.5h4M7.5 17h8"/></svg>
+      <span class="tab-tx">计划</span></button>
+    <button class="tab" data-target="focus" aria-label="专注">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.4"/><path d="M12 3.5v2M12 18.5v2M3.5 12h2M18.5 12h2"/></svg>
+      <span class="tab-tx">专注</span></button>
+    <button class="tab" data-target="me" aria-label="我的">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.6"/><path d="M4.5 20c.8-4 3.7-6 7.5-6s6.7 2 7.5 6"/></svg>
+      <span class="tab-tx">我的</span></button>
+  </nav>
+</div>
+
+<script>
+(function(){
+  var KEY='zx_errlog_v1', MAX=50;
+  function load(){try{return JSON.parse(localStorage.getItem(KEY))||[]}catch(e){return[]}}
+  function fmt(ts){var d=new Date(ts);function p(x){return(x<10?'0':'')+x}
+    return (d.getMonth()+1)+'-'+d.getDate()+' '+p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds())}
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+  function add(msg){var a=load();a.push({t:Date.now(),m:String(msg).slice(0,300)});
+    try{localStorage.setItem(KEY,JSON.stringify(a.slice(-MAX)))}catch(e){} render()}
+  window.addEventListener('error',function(e){
+    add((e.message||'脚本错误')+(e.lineno?(' @行'+e.lineno):''))},true);
+  window.addEventListener('unhandledrejection',function(e){
+    var r=e.reason;add('Promise未处理: '+((r&&r.message)||(r&&String(r))||'无信息'))});
+  function render(){
+    var a=load(),n=a.length,dot=document.getElementById('errDot');
+    if(!n){if(dot){dot.style.display='none'}return}
+    if(!dot){
+      dot=document.createElement('div');dot.id='errDot';dot.innerHTML='&#9888;<span class="n"></span>';
+      dot.onclick=function(){
+        var p=document.getElementById('errPanel');
+        if(p.style.display==='block'){p.style.display='none';return}
+        var b='';a.forEach(function(x){
+          b+='<div class="row"><div class="t">'+fmt(x.t)+'</div><div>'+esc(x.m)+'</div></div>'});
+        p.innerHTML='<h4>&#9888; 页面出过错（'+n+' 条）</h4>'
+          +'<div class="hint">这是打开网站以来捕获的脚本错误记录。'
+          +'出现红点说明某次运行中有代码出错，页面可能部分功能不正常。'
+          +'请把带时间的几行截图发给制作方定位修复；看完了可清除。</div>'
+          +b+'<button class="clr">清除全部</button>';
+        p.style.display='block';
+        p.querySelector('.clr').onclick=function(){
+          localStorage.removeItem(KEY);p.style.display='none';render()};
+      };
+      document.body.appendChild(dot);
+      var pnl=document.createElement('div');pnl.id='errPanel';pnl.style.display='none';
+      document.body.appendChild(pnl);
+    }
+    dot.style.display='flex';
+    dot.querySelector('.n').textContent=(n>9?'9+':n);
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render)}else{render()}
+})();
+</script>
+<script src="vendor/katex/katex.min.js?v=202611251700"></script>
+<script src="vendor/katex/auto-render.min.js?v=202611251700"></script>
+<script src="js/engine.js?v=202611251700"></script>
+<script src="js/store.js?v=202611251700"></script>
+<script src="js/app.js?v=202611251700"></script>
+</body>
+</html>
